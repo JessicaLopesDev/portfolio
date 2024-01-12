@@ -1,7 +1,10 @@
+import { useState } from 'react';
 import logo from '../../assets/logo.png';
 import * as S from './styles';
 
 const Header = () => {
+  const [Mobile, setMobile] = useState(false);
+
   return (
     <>
       <S.Container>
@@ -9,7 +12,6 @@ const Header = () => {
           <S.LeftContent>
             <img src={logo} alt="" />
           </S.LeftContent>
-
           <S.RightContent className="navlink">
             <S.List>
               <S.ListItem>
@@ -34,6 +36,13 @@ const Header = () => {
                 <S.Button>BUY NOW</S.Button>
               </S.ListItem>
             </S.List>
+            <button onClick={() => setMobile(!Mobile)}>
+              {Mobile ? (
+                <i className="fas fa-times close home-btn"></i>
+              ) : (
+                <i className="fas fa-bars open"></i>
+              )}
+            </button>
           </S.RightContent>
         </S.Content>
       </S.Container>
