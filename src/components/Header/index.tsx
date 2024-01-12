@@ -36,13 +36,13 @@ const Header = () => {
                 <S.Button>BUY NOW</S.Button>
               </S.ListItem>
             </S.List>
-            <button onClick={() => setMobile(!Mobile)}>
+            <S.HomeButton onClick={() => setMobile(!Mobile)}>
               {Mobile ? (
                 <i className="fas fa-times close home-btn"></i>
               ) : (
                 <i className="fas fa-bars open"></i>
               )}
-            </button>
+            </S.HomeButton>
           </S.RightContent>
         </S.Content>
       </S.Container>

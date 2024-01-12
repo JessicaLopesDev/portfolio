@@ -13,7 +13,6 @@ export const Content = styled.div`
 
 export const LeftContent = styled.div`
   margin-right: 10%;
-  margin-top: 80px;
   width: 50%;
 `;
 

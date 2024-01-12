@@ -78,6 +78,7 @@ export const Button = styled.button`
 `;
 
 export const HomeButton = styled.button`
+  display: none;
   padding: 18px 25px;
   border-radius: 6px;
   transition: 0.3s all ease;
