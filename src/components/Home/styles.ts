@@ -14,11 +14,13 @@ export const Content = styled.div`
 export const LeftContent = styled.div`
   margin-right: 10%;
   margin-top: 80px;
+  width: 50%;
 `;
 
 export const RightContent = styled.div`
   width: 40%;
   position: relative;
+  width: 50%;
 `;
 
 export const WelcomePhrase = styled.h3`
@@ -71,7 +73,14 @@ export const ButtonsContent = styled.div`
   gap: 20px;
 `;
 
-export const ShadowButton = styled.div`
+export const ContactIcon = styled.i`
+  font-size: 20px;
+`;
+
+export const ShadowButton = styled.button`
+  border: none;
+  outline: none;
+  background-color: none;
   padding: 18px 25px;
   border-radius: 6px;
   transition: 0.3s all ease;
@@ -90,4 +99,20 @@ export const ShadowButton = styled.div`
 export const SkillImg = styled.img`
   width: 20px;
   height: 20px;
+`;
+
+export const JessicaImgContainer = styled.div`
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border-radius: 10px;
+  height: 580px;
+  width: 510px;
+  margin-top: 20%;
+`;
+
+export const JessicaImg = styled.img`
+  position: absolute;
+  top: 0;
+  right: 10%;
+  width: 510px;
 `;

@@ -41,13 +41,13 @@ const Home = () => {
               <S.ButtonsTitle>FIND WITH ME</S.ButtonsTitle>
               <S.ButtonsContent>
                 <S.ShadowButton>
-                  <i className="fab fa-facebook-f"></i>
+                  <S.ContactIcon className="fab fa-facebook-f"></S.ContactIcon>
                 </S.ShadowButton>
                 <S.ShadowButton>
-                  <i className="fab fa-instagram"></i>
+                  <S.ContactIcon className="fab fa-instagram"></S.ContactIcon>
                 </S.ShadowButton>
                 <S.ShadowButton>
-                  <i className="fab fa-linkedin-in"></i>
+                  <S.ContactIcon className="fab fa-linkedin-in"></S.ContactIcon>
                 </S.ShadowButton>
               </S.ButtonsContent>
             </div>
@@ -68,9 +68,9 @@ const Home = () => {
           </S.ButtonsContainer>
         </S.LeftContent>
         <S.RightContent>
-          <div className="right_img">
-            <img src={hero} alt="" />
-          </div>
+          <S.JessicaImgContainer>
+            <S.JessicaImg src={hero} alt="" />
+          </S.JessicaImgContainer>
         </S.RightContent>
       </S.Content>
     </S.Container>
