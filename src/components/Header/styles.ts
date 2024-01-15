@@ -60,9 +60,6 @@ export const ItemLink = styled.a`
 `;
 
 export const Button = styled.button`
-  border: none;
-  outline: none;
-  background-color: none;
   padding: 18px 25px;
   border-radius: 6px;
   transition: 0.3s all ease;

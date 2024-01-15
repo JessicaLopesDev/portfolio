@@ -13,7 +13,21 @@ body {
   background-color: #ecf0f3;
 }
 
+h1 {
+  color: #3c3e41;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: none;
+}
+
 a {
   text-decoration: none;
   color: black;
+}
+
+p {
+  color: #3c3e41;
 }

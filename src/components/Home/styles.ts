@@ -74,9 +74,6 @@ export const ContactIcon = styled.i`
 `;
 
 export const ShadowButton = styled.button`
-  border: none;
-  outline: none;
-  background-color: none;
   padding: 18px 25px;
   border-radius: 6px;
   transition: 0.3s all ease;

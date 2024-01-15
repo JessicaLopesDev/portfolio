@@ -1,5 +1,5 @@
 export type FeaturesDataType = {
-  id: number;
+  id?: number;
   image: string;
   title: string;
   desc: string;
