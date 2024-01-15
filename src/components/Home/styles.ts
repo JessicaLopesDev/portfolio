@@ -5,8 +5,6 @@ export const Container = styled.header`
 `;
 
 export const Content = styled.div`
-  max-width: 95%;
-  margin: auto;
   display: flex;
   margin-top: 80px;
 `;
@@ -19,7 +17,6 @@ export const LeftContent = styled.div`
 export const RightContent = styled.div`
   width: 40%;
   position: relative;
-  /* width: 50%; */
 `;
 
 export const WelcomePhrase = styled.h3`
@@ -105,7 +102,7 @@ export const JessicaImgContainer = styled.div`
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
   height: 580px;
-  width: 510px;
+  width: 516px;
   margin-top: 20%;
 `;
 

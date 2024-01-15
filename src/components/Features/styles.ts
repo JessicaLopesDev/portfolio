@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.header`
+export const Container = styled.section`
   height: 10vh;
   line-height: 10vh;
 `;
@@ -51,6 +51,8 @@ export const ItemLink = styled.a`
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 1px;
+  text-decoration: none;
+  color: black;
   &:hover {
     color: #ff014f;
   }
