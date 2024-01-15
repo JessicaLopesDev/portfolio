@@ -19,7 +19,7 @@ export const LeftContent = styled.div`
 export const RightContent = styled.div`
   width: 40%;
   position: relative;
-  width: 50%;
+  /* width: 50%; */
 `;
 
 export const WelcomePhrase = styled.h3`
