@@ -1,8 +1,8 @@
 import './App.css';
-import Portfolio from './pages/Portfolio';
+import PortfolioPage from './pages/PotfolioPage';
 
 const App = () => {
-  return <Portfolio />;
+  return <PortfolioPage />;
 };
 
 export default App;

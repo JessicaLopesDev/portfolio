@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
+  position: relative;
   margin-top: 80px;
-  max-width: 95%;
-  margin: auto;
 `;
 
 export const Heading = styled.div`
   margin: 50px 0 50px 0;
+  text-align: center;
 `;
 
 export const GridContent = styled.div`

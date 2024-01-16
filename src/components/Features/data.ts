@@ -1,4 +1,4 @@
-const data = [
+const featuresData = [
   {
     id: 1,
     image: 'https://img.icons8.com/ios/64/000000/menu.png',
@@ -37,4 +37,4 @@ const data = [
     desc: ' It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.',
   },
 ];
-export default data;
+export default featuresData;

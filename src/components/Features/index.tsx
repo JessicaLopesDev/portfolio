@@ -1,17 +1,17 @@
-import Card from './Card';
-import data from './data';
+import FeatureCard from './Card';
+import featuresData from './data';
 import * as S from './styles';
 
 const Features = () => {
   return (
     <S.Container>
       <S.Heading>
-        <h4>Features</h4>
-        <h1>What I Do</h1>
+        <S.Title>Features</S.Title>
+        <S.Subtitle>What I Do</S.Subtitle>
       </S.Heading>
       <S.GridContent>
-        {data.map((item, index) => (
-          <Card
+        {featuresData.map((item, index) => (
+          <FeatureCard
             key={index}
             image={item.image}
             title={item.title}

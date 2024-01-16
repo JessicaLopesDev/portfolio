@@ -1,7 +1,13 @@
 import * as S from './styles';
-import { FeaturesDataType } from '../type';
 
-const Card = (props: FeaturesDataType) => {
+export type FeaturesDataType = {
+  id?: number;
+  image: string;
+  title: string;
+  desc: string;
+};
+
+const FeatureCard = (props: FeaturesDataType) => {
   return (
     <S.Container>
       <img src={props.image} alt="" />
@@ -14,4 +20,4 @@ const Card = (props: FeaturesDataType) => {
   );
 };
 
-export default Card;
+export default FeatureCard;

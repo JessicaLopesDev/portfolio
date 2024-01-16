@@ -3,7 +3,7 @@ import Home from '../../components/Home';
 import Header from '../../components/Header';
 import Features from '../../components/Features';
 
-const Portfolio = () => {
+const PortfolioPage = () => {
   return (
     <S.Container>
       <Header />
@@ -13,4 +13,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default PortfolioPage;
