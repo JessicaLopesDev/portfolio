@@ -4,7 +4,8 @@ const PortfolioData = [
     category: 'DEVELOPMENT',
     totalLike: '600',
     title: 'The services provide for design ',
-    image: './image/portfolio-01.jpg',
+    image:
+      'https://img.freepik.com/fotos-gratis/flores-roxas-em-um-vaso_1340-25662.jpg',
   },
   {
     id: 2,

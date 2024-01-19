@@ -1,4 +1,4 @@
-import PortfolioCard from './Card';
+import PortfolioCard from './PortfolioCard';
 import PortfolioData from './data';
 import * as S from './styles';
 

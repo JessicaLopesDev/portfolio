@@ -11,8 +11,7 @@ export const Container = styled.header`
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   &:hover {
-    background: #ff014f;
-    color: white;
+    color: #ff014f;
     transform: translateY(-10px);
   }
 `;
@@ -32,6 +31,12 @@ export const Image = styled.img`
   }
 `;
 
+export const Label = styled.label`
+  &:hover {
+    color: #ff014f;
+  }
+`;
+
 export const CategoryContainer = styled.div`
   display: flex;
   justify-content: space-between;
@@ -40,21 +45,10 @@ export const CategoryContainer = styled.div`
 `;
 
 export const CategoryTitle = styled.span`
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0 30px 0;
-  text-transform: uppercase;
-`;
-
-export const HeartIcon = styled.i`
-  font-size: 30px;
-  margin-top: 20px;
-  transition: 0.5s;
-  opacity: 0;
-  &:hover {
-    color: white;
-    opacity: 1;
-  }
+  color: #ff014f;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
 `;
 
 export const Title = styled.h2`
@@ -64,4 +58,15 @@ export const Title = styled.h2`
   &:hover {
     color: #ff014f;
   }
+`;
+
+export const ModalContainer = styled.div`
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 9999;
 `;
