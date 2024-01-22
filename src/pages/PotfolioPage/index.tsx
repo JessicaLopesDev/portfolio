@@ -2,7 +2,7 @@ import * as S from './styles';
 import Home from '../../components/Home';
 import Header from '../../components/Header';
 import Features from '../../components/Features';
-import Portfolio from '../../components/Portfolio';
+import Projects from '../../components/Projects';
 
 const PortfolioPage = () => {
   return (
@@ -10,7 +10,7 @@ const PortfolioPage = () => {
       <Header />
       <Home />
       <Features />
-      <Portfolio />
+      <Projects />
     </S.Container>
   );
 };

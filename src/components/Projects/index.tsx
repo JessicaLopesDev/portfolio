@@ -1,8 +1,8 @@
-import PortfolioCard from './PortfolioCard';
+import ProjectCard from './ProjectCard';
 import PortfolioData from './data';
 import * as S from './styles';
 
-const Portfolio = () => {
+const Projects = () => {
   return (
     <S.Container>
       <S.Heading>
@@ -11,7 +11,7 @@ const Portfolio = () => {
       </S.Heading>
       <S.GridContent>
         {PortfolioData.map((item, index) => (
-          <PortfolioCard
+          <ProjectCard
             key={index}
             image={item.image}
             category={item.category}
@@ -24,4 +24,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;
