@@ -16,7 +16,7 @@ export const Container = styled.div`
     transition: 0.5s;
   }
   hr {
-    margin: 30px 0 30px 0;
+    margin: 10px 0 20px 0;
     border: 1px solid #e3e9ed;
     background-color: #e3e9ed;
   }

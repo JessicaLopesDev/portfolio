@@ -18,7 +18,6 @@ export const ContentWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   position: relative;
-  margin-top: 40px;
 `;
 
 export const Side = styled.div`
@@ -27,7 +26,7 @@ export const Side = styled.div`
   &::after {
     content: '';
     position: absolute;
-    top: 18%;
+    top: 16%;
     left: 0;
     height: 118vh;
     width: 5px;
