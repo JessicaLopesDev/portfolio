@@ -1,5 +1,5 @@
-import FeatureCard from './Card';
-import featuresData from './features_data';
+import { FeatureCard } from './Card';
+import { featuresData } from './features_data';
 import * as S from './styles';
 
 export const Features = () => {

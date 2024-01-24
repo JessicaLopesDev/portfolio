@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.header`
+export const Container = styled.div`
   padding: 50px;
   padding: 18px 25px;
   border-radius: 6px;

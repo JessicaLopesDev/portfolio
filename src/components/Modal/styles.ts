@@ -1,11 +1,11 @@
 import styled, { css } from 'styled-components';
 
 type ContainerProps = {
-  isOpen: boolean;
+  isopen: boolean;
 };
 
 export const Container = styled.div<ContainerProps>`
-  ${({ isOpen }) => css`
+  ${({ isopen }) => css`
     width: 100%;
     height: 100vh;
     top: 0;
@@ -18,7 +18,7 @@ export const Container = styled.div<ContainerProps>`
     display: flex;
     align-items: center;
     justify-content: center;
-    display: ${isOpen ? 'flex' : 'none'};
+    display: ${isopen ? 'flex' : 'none'};
   `}
 `;
 

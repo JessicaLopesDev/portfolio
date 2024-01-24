@@ -1,4 +1,4 @@
-const PortfolioData = [
+export const PortfolioData = [
   {
     id: 1,
     category: 'DEVELOPMENT',
@@ -42,4 +42,3 @@ const PortfolioData = [
     image: 'images/aurora.JPG',
   },
 ];
-export default PortfolioData;

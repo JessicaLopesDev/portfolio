@@ -1,4 +1,4 @@
-const ResumeApi = [
+export const ResumeData = [
   {
     id: 1,
     category: 'education',
@@ -48,5 +48,3 @@ const ResumeApi = [
     rate: '5.00/5 ',
   },
 ];
-
-export default ResumeApi;

@@ -1,5 +1,5 @@
 import { ProjectCard } from './ProjectCard';
-import PortfolioData from './projects_data';
+import { PortfolioData } from './projects_data';
 import * as S from './styles';
 
 export const Projects = () => {
