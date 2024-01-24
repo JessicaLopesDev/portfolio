@@ -6,7 +6,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 import * as S from './styles';
 
-const Home = () => {
+export const Home = () => {
   return (
     <S.Container id="home">
       <S.Content>
@@ -76,5 +76,3 @@ const Home = () => {
     </S.Container>
   );
 };
-
-export default Home;

@@ -1,7 +1,7 @@
 // import { useState } from 'react';
 import { useState } from 'react';
 import * as S from './styles';
-import Modal from '../../Modal';
+import { Modal } from '../../Modal';
 import { ProjectDataProps } from '../ProjectDetails/types';
 import { ProjectDetails } from '../ProjectDetails';
 
@@ -13,7 +13,7 @@ export type ProjectDataType = {
   image: string;
 };
 
-const ProjectCard = (props: ProjectDataType) => {
+export const ProjectCard = (props: ProjectDataType) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [projectDetails, setProjectDetails] = useState({} as ProjectDataProps);
 
@@ -49,5 +49,3 @@ const ProjectCard = (props: ProjectDataType) => {
     </>
   );
 };
-
-export default ProjectCard;

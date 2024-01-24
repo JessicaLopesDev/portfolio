@@ -2,7 +2,7 @@ import { ModalProps } from './types';
 
 import * as S from './styles';
 
-const Modal = ({ children, isOpen, onClose }: ModalProps) => {
+export const Modal = ({ children, isOpen, onClose }: ModalProps) => {
   return (
     <S.Container isOpen={isOpen} onClick={() => onClose(false)}>
       <S.Content onClick={(event) => event.stopPropagation()}>
@@ -18,5 +18,3 @@ const Modal = ({ children, isOpen, onClose }: ModalProps) => {
     </S.Container>
   );
 };
-
-export default Modal;

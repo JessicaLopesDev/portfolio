@@ -1,8 +1,8 @@
-import ProjectCard from './ProjectCard';
-import PortfolioData from './data';
+import { ProjectCard } from './ProjectCard';
+import PortfolioData from './projects_data';
 import * as S from './styles';
 
-const Projects = () => {
+export const Projects = () => {
   return (
     <S.Container>
       <S.Heading>
@@ -23,5 +23,3 @@ const Projects = () => {
     </S.Container>
   );
 };
-
-export default Projects;

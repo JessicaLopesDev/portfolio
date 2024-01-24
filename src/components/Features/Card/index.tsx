@@ -7,7 +7,7 @@ export type FeaturesDataType = {
   desc: string;
 };
 
-const FeatureCard = (props: FeaturesDataType) => {
+export const FeatureCard = (props: FeaturesDataType) => {
   return (
     <S.Container>
       <img src={props.image} alt="" />
@@ -19,5 +19,3 @@ const FeatureCard = (props: FeaturesDataType) => {
     </S.Container>
   );
 };
-
-export default FeatureCard;

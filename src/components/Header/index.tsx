@@ -2,7 +2,7 @@ import { useState } from 'react';
 import logo from '../../assets/logo.png';
 import * as S from './styles';
 
-const Header = () => {
+export const Header = () => {
   const [Mobile, setMobile] = useState(false);
 
   return (
@@ -49,5 +49,3 @@ const Header = () => {
     </>
   );
 };
-
-export default Header;

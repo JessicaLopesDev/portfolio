@@ -1,8 +1,8 @@
 import FeatureCard from './Card';
-import featuresData from './data';
+import featuresData from './features_data';
 import * as S from './styles';
 
-const Features = () => {
+export const Features = () => {
   return (
     <S.Container>
       <S.Heading>
@@ -22,5 +22,3 @@ const Features = () => {
     </S.Container>
   );
 };
-
-export default Features;
