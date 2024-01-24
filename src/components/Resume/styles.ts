@@ -12,6 +12,11 @@ export const Heading = styled.div`
   > h1 {
     font-size: 40px;
   }
+  h4 {
+    color: #ff014f;
+    letter-spacing: 2px;
+    font-weight: 400;
+  }
 `;
 
 export const ContentWrapper = styled.div`
@@ -26,9 +31,9 @@ export const Side = styled.div`
   &::after {
     content: '';
     position: absolute;
-    top: 16%;
+    top: 15%;
     left: 0;
-    height: 118vh;
+    height: 126vh;
     width: 5px;
     background: #d9dee2;
     z-index: -2;
