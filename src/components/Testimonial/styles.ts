@@ -19,6 +19,34 @@ export const Heading = styled.div`
   }
 `;
 
-export const Containsfgver = styled.div``;
+export const SlideContainer = styled.div`
+  max-width: 80%;
+  margin: auto;
+  height: 500px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+`;
 
-export const Contabvginer = styled.div``;
+export const ButtonsSlideContainer = styled.div`
+  /* position: relative; */
+  top: 30px;
+  right: 20px;
+`;
+
+export const NextPrevBtn = styled.button`
+  color: #ff014f;
+  padding: 18px 22px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  position: absolute;
+  right: 32px;
+  top: 22px;
+  cursor: pointer;
+  transition: 0.5s;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  &:hover {
+    transform: translateY(-10px);
+  }
+`;
