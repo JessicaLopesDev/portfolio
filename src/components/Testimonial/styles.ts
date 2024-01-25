@@ -29,24 +29,40 @@ export const SlideContainer = styled.div`
 `;
 
 export const ButtonsSlideContainer = styled.div`
-  /* position: relative; */
+  position: absolute;
   top: 30px;
   right: 20px;
 `;
 
-export const NextPrevBtn = styled.button`
-  color: #ff014f;
+export const PrevBtn = styled.button`
   padding: 18px 22px;
   border-radius: 6px;
   transition: 0.3s all ease;
-  position: absolute;
-  right: 32px;
-  top: 22px;
+  margin-right: 30px;
+  color: #000;
   cursor: pointer;
   transition: 0.5s;
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   &:hover {
+    background: #ff014f;
+    color: white;
+    transform: translateY(-10px);
+  }
+`;
+
+export const NextBtn = styled.button`
+  padding: 18px 22px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  color: #000;
+  cursor: pointer;
+  transition: 0.5s;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  &:hover {
+    background: #ff014f;
+    color: white;
     transform: translateY(-10px);
   }
 `;
