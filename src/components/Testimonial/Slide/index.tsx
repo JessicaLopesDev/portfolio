@@ -41,7 +41,7 @@ export const Slide = ({ data }: any) =>
       <S.Container>
         <S.Left className="left box_shodow">
           <div className="img">
-            <img width={'300px'} src="images/aurora.JPG" alt="" />
+            <img width={'250px'} src="images/aurora.JPG" alt="" />
           </div>
           <S.PersonInfo className="details mtop">
             <span className="primary_color">NCD - DESIGN</span>
@@ -53,7 +53,7 @@ export const Slide = ({ data }: any) =>
         <S.Right className="right">
           <div className="icon">
             <div className="quote">
-              <S.Icon className="fal fa-quote-right"></S.Icon>
+              <S.Icon className="fas fa-quote-right"></S.Icon>
             </div>
           </div>
 
