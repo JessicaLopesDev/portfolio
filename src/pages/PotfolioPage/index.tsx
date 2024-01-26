@@ -5,6 +5,7 @@ import { Features } from '../../components/Features';
 import { Projects } from '../../components/Projects';
 import { Resume } from '../../components/Resume';
 import { Testimonial } from '../../components/Testimonial';
+import { Contact } from '../../components/Contact';
 
 export const PortfolioPage = () => {
   return (
@@ -15,6 +16,7 @@ export const PortfolioPage = () => {
       <Projects />
       <Resume />
       <Testimonial />
+      <Contact />
     </S.Container>
   );
 };

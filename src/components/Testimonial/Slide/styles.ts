@@ -23,6 +23,9 @@ export const Left = styled.div`
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
   background-color: red;
+  img {
+    width: 100%;
+  }
 `;
 
 export const PersonInfo = styled.div`
