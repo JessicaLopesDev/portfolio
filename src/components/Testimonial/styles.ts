@@ -19,6 +19,7 @@ export const Heading = styled.div`
 export const SlideContainer = styled.div`
   max-width: 80%;
   margin: auto;
+  /* background-color: red; */
   height: 500px;
   position: relative;
   display: flex;

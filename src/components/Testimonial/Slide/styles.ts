@@ -2,14 +2,17 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  justify-content: space-between;
-  position: absolute;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* background-color: blue; */
+
+  /* position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  /* opacity: 0; */
+  opacity: 0;
   transition: all 0.3s linear;
+  height: 100%; */
 `;
 
 export const Left = styled.div`
@@ -19,6 +22,7 @@ export const Left = styled.div`
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
+  background-color: red;
 `;
 
 export const PersonInfo = styled.div`
@@ -35,11 +39,11 @@ export const PersonInfo = styled.div`
 export const Right = styled.div`
   width: 65%;
   padding: 0 0 0 50px;
-  margin: 0 20px 0 0;
+  margin: 0 20px 30px 0;
 `;
 
 export const RightContent = styled.div`
-  margin-top: 40px;
+  margin-top: 30px;
   padding: 50px;
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;

@@ -41,7 +41,11 @@ export const Slide = ({ data }: any) =>
       <S.Container>
         <S.Left className="left box_shodow">
           <div className="img">
-            <img width={'250px'} src="images/aurora.JPG" alt="" />
+            <img
+              width={'250px'}
+              src="https://img.freepik.com/vetores-gratis/moldura-quadrada-dourada-com-flores-de-inverno_52683-29907.jpg"
+              alt=""
+            />
           </div>
           <S.PersonInfo className="details mtop">
             <span className="primary_color">NCD - DESIGN</span>
