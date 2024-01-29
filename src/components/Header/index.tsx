@@ -12,7 +12,7 @@ export const Header = () => {
           <S.LeftContent>
             <img src={logo} alt="" />
           </S.LeftContent>
-          <S.RightContent className="navlink">
+          <S.RightContent>
             <S.List>
               <S.ListItem>
                 <S.ItemLink href="#home">home</S.ItemLink>
@@ -25,9 +25,6 @@ export const Header = () => {
               </S.ListItem>
               <S.ListItem>
                 <S.ItemLink href="#resume">resume</S.ItemLink>
-              </S.ListItem>
-              <S.ListItem>
-                <S.ItemLink href="#blog">blog</S.ItemLink>
               </S.ListItem>
               <S.ListItem>
                 <S.ItemLink href="#contact">contact</S.ItemLink>

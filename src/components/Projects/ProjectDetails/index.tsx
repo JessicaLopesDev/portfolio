@@ -20,11 +20,11 @@ export const ProjectDetails = ({ data }: ProjectDetailsProps) => {
           iusto hic minus!
         </S.Description>
         <S.ButtonsContainer>
-          <S.Button className="btn_shadow">
+          <S.Button>
             LIKE THIS
             <S.Icon className="far fa-thumbs-up" />
           </S.Button>
-          <S.Button className="btn_shadow">
+          <S.Button>
             VIEW PROJECT
             <S.Icon className="fas fa-chevron-right" />
           </S.Button>

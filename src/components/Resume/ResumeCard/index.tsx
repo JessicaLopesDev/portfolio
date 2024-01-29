@@ -10,14 +10,14 @@ export type ResumeDataType = {
 
 export const ResumeCard = (props: ResumeDataType) => {
   return (
-    <S.Container className="box btn_shadow">
-      <S.TitleContent className="title_content d_flex">
-        <div className="title">
+    <S.Container>
+      <S.TitleContent>
+        <div>
           <h2>{props.title}</h2>
           <span>{props.year}</span>
         </div>
-        <S.Rate className="rate">
-          <button className="btn_shadow ">{props.rate}</button>
+        <S.Rate>
+          <button>{props.rate}</button>
         </S.Rate>
       </S.TitleContent>
       <hr />

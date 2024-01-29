@@ -4,7 +4,7 @@ import * as S from './styles';
 
 export const Projects = () => {
   return (
-    <S.Container>
+    <S.Container id="portfolio">
       <S.Heading>
         <S.Title>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</S.Title>
         <S.Subtitle>My Portfolio</S.Subtitle>

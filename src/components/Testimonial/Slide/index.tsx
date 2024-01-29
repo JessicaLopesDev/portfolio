@@ -39,29 +39,29 @@ export const Slide = ({ data }: any) =>
     //   }
     return (
       <S.Container>
-        <S.Left className="left box_shodow">
-          <div className="img">
+        <S.Left>
+          <div>
             <img
               width={'250px'}
               src="https://img.freepik.com/vetores-gratis/moldura-quadrada-dourada-com-flores-de-inverno_52683-29907.jpg"
               alt=""
             />
           </div>
-          <S.PersonInfo className="details mtop">
-            <span className="primary_color">NCD - DESIGN</span>
+          <S.PersonInfo>
+            <span>NCD - DESIGN</span>
             <h2>Jéssica</h2>
             <label>Marketing Officer</label>
           </S.PersonInfo>
         </S.Left>
 
-        <S.Right className="right">
-          <div className="icon">
-            <div className="quote">
+        <S.Right>
+          <div>
+            <div>
               <S.Icon className="fas fa-quote-right"></S.Icon>
             </div>
           </div>
 
-          <S.RightContent className="content box_shodow mtop">
+          <S.RightContent>
             <h1>CEO - Marketing</h1>
             <h3>Thoda Department - Mar 4, 2018 - Aug 30, 2021</h3>
             <p>

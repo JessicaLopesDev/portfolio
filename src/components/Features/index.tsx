@@ -4,7 +4,7 @@ import * as S from './styles';
 
 export const Features = () => {
   return (
-    <S.Container>
+    <S.Container id="features">
       <S.Heading>
         <S.Title>Features</S.Title>
         <S.Subtitle>What I Do</S.Subtitle>

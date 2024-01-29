@@ -42,16 +42,10 @@ export const Testimonial = () => {
         {/* );
         })} */}
         <S.ButtonsSlideContainer>
-          <S.PrevBtn
-            className="btn_shadow prev_btn"
-            onClick={() => setIndex(index - 1)}
-          >
+          <S.PrevBtn onClick={() => setIndex(index - 1)}>
             <i className="fas fa-arrow-left"></i>
           </S.PrevBtn>
-          <S.NextBtn
-            className="btn_shadow next_btn"
-            onClick={() => setIndex(index + 1)}
-          >
+          <S.NextBtn onClick={() => setIndex(index + 1)}>
             <i className="fas fa-arrow-right"></i>
           </S.NextBtn>
         </S.ButtonsSlideContainer>

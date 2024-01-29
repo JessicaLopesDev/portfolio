@@ -4,14 +4,14 @@ import * as S from './styles';
 
 export const Resume = () => {
   return (
-    <S.Container>
-      <S.Heading className="heading text-center">
+    <S.Container id="resume">
+      <S.Heading>
         <h4>7+ YEARS OF EXPERIENCE</h4>
         <h1>My Resume</h1>
       </S.Heading>
       <S.ContentWrapper>
         <S.Side>
-          <S.Heading className="heading text-center">
+          <S.Heading>
             <h4>2007-2010</h4>
             <h1>Education Quality</h1>
           </S.Heading>
@@ -32,7 +32,7 @@ export const Resume = () => {
           </S.Content>
         </S.Side>
         <S.Side>
-          <S.Heading className="heading text-center">
+          <S.Heading>
             <h4>2007-2010</h4>
             <h1>Job Experience</h1>
           </S.Heading>

@@ -72,16 +72,6 @@ export const Right = styled.div`
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
-  > input,
-  textarea {
-    width: 100%;
-    margin-top: 10px;
-    padding: 20px;
-    border-radius: 5px;
-    outline: none;
-    border: 3px solid #e2e8ec;
-    margin-bottom: 20px;
-  }
   span {
     font-size: 13px;
   }

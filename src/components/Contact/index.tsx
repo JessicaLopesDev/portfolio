@@ -37,18 +37,18 @@ export const Contact = () => {
 
   return (
     <S.Container>
-      <S.Heading className="heading text-center">
+      <S.Heading id="contact">
         <h4>CONTACT</h4>
         <h1>Contact With Me</h1>
       </S.Heading>
 
-      <S.ContentContainer className="content d_flex">
-        <S.Left className="left">
-          <S.BoxContent className="box box_shodow">
-            <div className="img">
+      <S.ContentContainer>
+        <S.Left>
+          <S.BoxContent>
+            <div>
               <img src={contact1} alt="" />
             </div>
-            <S.Details className="details">
+            <S.Details>
               <h1>Nevine Acotanza</h1>
               <p>Chief Operating Officer</p>
               <p>
@@ -59,14 +59,14 @@ export const Contact = () => {
               <p>Phone: +01234567890</p>
               <p>Email: admin@example.com</p> <br />
               <span>FIND WITH ME</span>
-              <S.ContactButtons className="button f_flex">
-                <button className="btn_shadow">
+              <S.ContactButtons>
+                <button>
                   <i className="fab fa-facebook-f"></i>
                 </button>
-                <button className="btn_shadow">
+                <button>
                   <i className="fab fa-instagram"></i>
                 </button>
-                <button className="btn_shadow">
+                <button>
                   <i className="fab fa-twitter"></i>
                 </button>
               </S.ContactButtons>
@@ -74,10 +74,10 @@ export const Contact = () => {
           </S.BoxContent>
         </S.Left>
 
-        <S.Right className="right box_shodow">
+        <S.Right>
           <form onSubmit={formSubmit}>
-            <S.NamePhoneContainer className="f_flex">
-              <div className="input row">
+            <S.NamePhoneContainer>
+              <div>
                 <span>YOUR NAME</span>
                 <input
                   type="text"
@@ -86,7 +86,7 @@ export const Contact = () => {
                   onChange={InputEvent}
                 />
               </div>
-              <div className="input row">
+              <div>
                 <span>PHONE NUMBER </span>
                 <input
                   type="number"
@@ -96,7 +96,7 @@ export const Contact = () => {
                 />
               </div>
             </S.NamePhoneContainer>
-            <div className="input">
+            <div>
               <span>EMAIL </span>
               <input
                 type="email"
@@ -105,7 +105,7 @@ export const Contact = () => {
                 onChange={InputEvent}
               />
             </div>
-            <div className="input">
+            <div>
               <span>SUBJECT </span>
               <input
                 type="text"
@@ -114,7 +114,7 @@ export const Contact = () => {
                 onChange={InputEvent}
               />
             </div>
-            <div className="input">
+            <div>
               <span>YOUR MESSAGE </span>
               <textarea
                 cols={30}
@@ -124,7 +124,7 @@ export const Contact = () => {
                 onChange={InputEvent}
               ></textarea>
             </div>
-            <S.SendButton className="btn_shadow">
+            <S.SendButton>
               SEND MESSAGE <i className="fa fa-long-arrow-right"></i>
             </S.SendButton>
           </form>

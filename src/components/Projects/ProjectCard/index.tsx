@@ -31,7 +31,7 @@ export const ProjectCard = (props: ProjectDataType) => {
           </label>
         </S.CategoryContainer>
         <div>
-          <S.Title className="title">{props.title}</S.Title>
+          <S.Title>{props.title}</S.Title>
           <div
             onClick={() => {
               setModalIsOpen(true);
