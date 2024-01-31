@@ -2,6 +2,7 @@ import styled, { css } from 'styled-components';
 import { LinksListProps } from './types';
 
 type ListProps = Pick<LinksListProps, 'flexDirection'>;
+type IconProps = Pick<LinksListProps, 'iconColor'>;
 
 const listItemModifier = {
   column: () => css`
@@ -49,4 +50,26 @@ export const Button = styled.button`
   color: #ff014f;
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+`;
+
+export const ShadowButton = styled.button`
+  padding: 13px 18px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  transition: 0.5s;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  &:hover {
+    background: #ff014f;
+    color: white;
+    transform: translateY(-10px);
+  }
+`;
+
+export const ContactIcon = styled.i<IconProps>`
+  ${({ iconColor }) => css`
+    font-size: 22px;
+    color: ${iconColor === 'linkedin' ? '#0a66c2' : '#171515'};
+  `}
 `;

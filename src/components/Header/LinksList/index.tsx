@@ -19,8 +19,26 @@ export const LinksList = ({ flexDirection = 'row' }: LinksListProps) => {
       <S.ListItem>
         <S.ItemLink href="#contact">contact</S.ItemLink>
       </S.ListItem>
+
       <S.ListItem>
-        <S.Button>BUY NOW</S.Button>
+        <S.ShadowButton>
+          <a
+            href="https://www.linkedin.com/in/jessica-lopes-dev-frontend/"
+            target="_blank"
+          >
+            <S.ContactIcon className="fa-brands fa-github" />
+          </a>
+        </S.ShadowButton>
+      </S.ListItem>
+      <S.ListItem>
+        <S.ShadowButton>
+          <a
+            href="https://www.linkedin.com/in/jessica-lopes-dev-frontend/"
+            target="_blank"
+          >
+            <S.ContactIcon iconColor="linkedin" className="fab fa-linkedin" />
+          </a>
+        </S.ShadowButton>
       </S.ListItem>
     </S.List>
   );

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from '../../assets/logo.png';
+// import logo from '../../assets/logo.png';
 import * as S from './styles';
 import { SideBar } from '../SideBar';
 import { LinksList } from './LinksList';
@@ -12,7 +12,8 @@ export const Header = () => {
       <S.Container>
         <S.Content>
           <S.LeftContent>
-            <img src={logo} alt="" />
+            <S.WelcomePhrase>WELCOME TO MY WORLD</S.WelcomePhrase>
+            {/* <img src={logo} alt="" /> */}
           </S.LeftContent>
 
           <S.RightContent>

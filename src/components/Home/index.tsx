@@ -1,7 +1,7 @@
-import hero from '../../assets/hero.png';
-import skill1 from '../../assets/skill1.png';
-import skill2 from '../../assets/skill2.png';
-import skill3 from '../../assets/skill3.png';
+import hero from '/images/je.png';
+import skill1 from '../../assets/react.png';
+import skill2 from '../../assets/node.png';
+import skill3 from '../../assets/java.png';
 import { Typewriter } from 'react-simple-typewriter';
 
 import * as S from './styles';
@@ -11,7 +11,6 @@ export const Home = () => {
     <S.Container id="home">
       <S.Content>
         <S.LeftContent>
-          <S.WelcomePhrase>WELCOME TO MY WORLD</S.WelcomePhrase>
           <S.Greeting>
             Hi, I'm <S.Name>Jéssica Lopes</S.Name>
           </S.Greeting>
@@ -37,20 +36,35 @@ export const Home = () => {
           </S.Description>
 
           <S.ButtonsContainer>
-            <div>
+            {/* <div>
               <S.ButtonsTitle>FIND WITH ME</S.ButtonsTitle>
               <S.ButtonsContent>
                 <S.ShadowButton>
-                  <S.ContactIcon className="fab fa-facebook-f" />
+                  <a
+                    href="https://www.facebook.com/je.lopes.costa?mibextid=sCpJLy"
+                    target="_blank"
+                  >
+                    <S.ContactIcon className="fab fa-facebook-f" />
+                  </a>
                 </S.ShadowButton>
                 <S.ShadowButton>
-                  <S.ContactIcon className="fab fa-instagram" />
+                  <a
+                    href="https://www.instagram.com/jessicalopes.jess?igsh=aDU5MXhhNGZnanhi&utm_source=qr"
+                    target="_blank"
+                  >
+                    <S.ContactIcon className="fab fa-instagram" />
+                  </a>
                 </S.ShadowButton>
                 <S.ShadowButton>
-                  <S.ContactIcon className="fab fa-linkedin-in" />
+                  <a
+                    href="https://www.linkedin.com/in/jessica-lopes-dev-frontend/"
+                    target="_blank"
+                  >
+                    <S.ContactIcon className="fab fa-linkedin-in" />
+                  </a>
                 </S.ShadowButton>
               </S.ButtonsContent>
-            </div>
+            </div> */}
             <div>
               <S.ButtonsTitle>BEST SKILL ON</S.ButtonsTitle>
               <S.ButtonsContent>

@@ -9,6 +9,7 @@ export const Content = styled.div`
   padding-top: 15px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 `;
 
 export const LeftContent = styled.div``;
@@ -17,6 +18,12 @@ export const ListBox = styled.div`
   @media (max-width: 950px) {
     display: none;
   }
+`;
+
+export const WelcomePhrase = styled.h3`
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-top: 10px;
 `;
 
 export const RightContent = styled.div``;

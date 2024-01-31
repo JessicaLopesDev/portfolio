@@ -19,10 +19,10 @@ export const RightContent = styled.div`
   position: relative;
 `;
 
-export const WelcomePhrase = styled.h3`
-  font-weight: 100;
-  letter-spacing: 2px;
-`;
+// export const WelcomePhrase = styled.h3`
+//   font-weight: 100;
+//   letter-spacing: 2px;
+// `;
 
 export const Greeting = styled.h1`
   font-size: 60px;
@@ -51,7 +51,7 @@ export const Description = styled.p`
 `;
 
 export const ButtonsContainer = styled.div`
-  margin-top: 20%;
+  margin-top: 10%;
   display: flex;
   justify-content: space-between;
 `;
@@ -90,8 +90,8 @@ export const ShadowButton = styled.button`
 `;
 
 export const SkillImg = styled.img`
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
 `;
 
 export const JessicaImgContainer = styled.div`
@@ -105,7 +105,7 @@ export const JessicaImgContainer = styled.div`
 
 export const JessicaImg = styled.img`
   position: absolute;
-  top: 0;
+  top: -15px;
   right: 10%;
   width: 510px;
 `;
