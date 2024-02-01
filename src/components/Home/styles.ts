@@ -19,13 +19,8 @@ export const RightContent = styled.div`
   position: relative;
 `;
 
-// export const WelcomePhrase = styled.h3`
-//   font-weight: 100;
-//   letter-spacing: 2px;
-// `;
-
 export const Greeting = styled.h1`
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
 `;
 
@@ -34,7 +29,7 @@ export const Name = styled.span`
 `;
 
 export const ProfessionPhrase = styled.h2`
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   color: #ff014f;
 `;
@@ -90,8 +85,8 @@ export const ShadowButton = styled.button`
 `;
 
 export const SkillImg = styled.img`
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
 `;
 
 export const JessicaImgContainer = styled.div`

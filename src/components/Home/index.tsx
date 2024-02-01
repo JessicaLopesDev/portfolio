@@ -1,7 +1,7 @@
 import hero from '/images/je.png';
 import skill1 from '../../assets/react.png';
-import skill2 from '../../assets/node.png';
-import skill3 from '../../assets/java.png';
+import skill2 from '../../assets/nodejs.svg';
+import skill3 from '../../assets/java-.png';
 import { Typewriter } from 'react-simple-typewriter';
 
 import * as S from './styles';
@@ -12,13 +12,17 @@ export const Home = () => {
       <S.Content>
         <S.LeftContent>
           <S.Greeting>
-            Hi, I'm <S.Name>Jéssica Lopes</S.Name>
+            Olá, sou a <S.Name>Jéssica Lopes</S.Name>
           </S.Greeting>
           <S.ProfessionPhrase>
-            a
             <S.Profession>
               <Typewriter
-                words={[' Professional Coder.', ' Developer.']}
+                words={[
+                  ' Desenvolvedora.',
+                  ' Front-End.',
+                  ' Back-End.',
+                  ' FullStack.',
+                ]}
                 loop
                 cursor
                 cursorStyle="|"
@@ -30,9 +34,11 @@ export const Home = () => {
           </S.ProfessionPhrase>
 
           <S.Description>
-            I use animation as a third dimension by which to simplify
-            experiences and kuiding thro each and every interaction. I'm not
-            adding motion just to spruce things up, but doing it in ways that.
+            Uma Desenvolvedora Web FullStack que acredita em um mundo melhor e
+            mais acessível através da inovação e tecnologia. Sou curiosa e
+            adepta do aprendizado contínuo e busco constantemente me evoluir
+            profissionalmente assim como a desenvolver e melhorar minha
+            inteligência emocional.
           </S.Description>
 
           <S.ButtonsContainer>

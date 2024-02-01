@@ -11,21 +11,18 @@ export const LinksList = ({ flexDirection = 'row' }: LinksListProps) => {
         <S.ItemLink href="#features">features</S.ItemLink>
       </S.ListItem>
       <S.ListItem>
-        <S.ItemLink href="#portfolio">portfolio</S.ItemLink>
+        <S.ItemLink href="#portfolio">portifólio</S.ItemLink>
       </S.ListItem>
       <S.ListItem>
-        <S.ItemLink href="#resume">resume</S.ItemLink>
+        <S.ItemLink href="#resume">currículo</S.ItemLink>
       </S.ListItem>
       <S.ListItem>
-        <S.ItemLink href="#contact">contact</S.ItemLink>
+        <S.ItemLink href="#contact">contato</S.ItemLink>
       </S.ListItem>
 
       <S.ListItem>
         <S.ShadowButton>
-          <a
-            href="https://www.linkedin.com/in/jessica-lopes-dev-frontend/"
-            target="_blank"
-          >
+          <a href="https://github.com/JessicaLopesDev" target="_blank">
             <S.ContactIcon className="fa-brands fa-github" />
           </a>
         </S.ShadowButton>
