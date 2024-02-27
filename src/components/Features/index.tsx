@@ -6,7 +6,7 @@ export const Features = () => {
   return (
     <S.Container id="features">
       <S.Heading>
-        <S.Title>Features</S.Title>
+        <S.Title>FEATURES</S.Title>
         <S.Subtitle>What I Do</S.Subtitle>
       </S.Heading>
       <S.GridContent>

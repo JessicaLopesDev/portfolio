@@ -7,7 +7,7 @@ export const Heading = styled.div`
   text-align: center;
 
   > h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
   h4 {
     color: #ff014f;

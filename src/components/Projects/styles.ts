@@ -23,5 +23,5 @@ export const Title = styled.h4`
 `;
 
 export const Subtitle = styled.h1`
-  font-size: 60px;
+  font-size: 50px;
 `;

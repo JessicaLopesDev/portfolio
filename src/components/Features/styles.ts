@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  margin-top: 80px;
-  max-width: 95%;
+  /* margin-top: 100px; */
+  /* max-width: 95%; */
   margin: auto;
 `;
 
 export const Heading = styled.div`
-  margin: 50px 0 50px 0;
+  margin: 80px 0 30px 0;
 `;
 
 export const GridContent = styled.div`
@@ -23,5 +23,5 @@ export const Title = styled.h4`
 `;
 
 export const Subtitle = styled.h1`
-  font-size: 60px;
+  font-size: 50px;
 `;

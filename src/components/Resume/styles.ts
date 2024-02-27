@@ -6,10 +6,13 @@ export const Container = styled.section`
 `;
 
 export const Heading = styled.div`
-  margin: 50px 0 50px 0;
+  margin: 40px 0 0 0;
   text-align: center;
 
   > h1 {
+    font-size: 50px;
+  }
+  > h2 {
     font-size: 40px;
   }
   h4 {
