@@ -6,7 +6,7 @@ export const Container = styled.section`
 `;
 
 export const Heading = styled.div`
-  margin: 40px 0 0 0;
+  margin: 40px 0 28px 0;
   text-align: center;
 
   > h1 {
@@ -24,6 +24,7 @@ export const Heading = styled.div`
 
 export const ContentWrapper = styled.div`
   display: flex;
+  gap: 50px;
   justify-content: space-between;
   position: relative;
 `;
@@ -34,16 +35,18 @@ export const Side = styled.div`
   &::after {
     content: '';
     position: absolute;
-    top: 15%;
+    top: 128px;
     left: 0;
-    height: 126vh;
+    height: 157vh;
     width: 5px;
     background: #d9dee2;
     z-index: -2;
   }
+  /* background-color: aqua; */
 `;
 
 export const Content = styled.div`
-  max-width: 85%;
+  /* max-width: 85%; */
   margin: auto;
+  padding-left: 50px;
 `;

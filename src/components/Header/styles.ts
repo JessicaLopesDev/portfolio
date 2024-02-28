@@ -23,7 +23,7 @@ export const ListBox = styled.div`
 export const WelcomePhrase = styled.h3`
   font-weight: 100;
   letter-spacing: 2px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 `;
 
 export const RightContent = styled.div``;

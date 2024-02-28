@@ -7,15 +7,21 @@ export const Container = styled.header`
 export const Content = styled.div`
   display: flex;
   margin-top: 80px;
+  height: calc(100vh - 160px);
+  padding-bottom: 50px;
 `;
 
 export const LeftContent = styled.div`
-  margin-right: 10%;
-  width: 50%;
+  /* margin-right: 10%; */
+  width: 60%;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
 `;
 
 export const RightContent = styled.div`
   width: 40%;
+  padding-top: 80px;
   position: relative;
 `;
 
@@ -46,7 +52,7 @@ export const Description = styled.p`
 `;
 
 export const ButtonsContainer = styled.div`
-  margin-top: 10%;
+  margin-top: 48px;
   display: flex;
   justify-content: space-between;
 `;
@@ -68,12 +74,32 @@ export const ContactIcon = styled.i`
   font-size: 20px;
 `;
 
-export const ShadowButton = styled.button`
+// export const ShadowButton = styled.button`
+//   padding: 18px 25px;
+//   border-radius: 6px;
+//   transition: 0.3s all ease;
+//   cursor: pointer;
+//   color: #000;
+//   transition: 0.5s;
+//   background: linear-gradient(145deg, #e2e8ec, #ffffff);
+//   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+//   &:hover {
+//     background: #ff014f;
+//     color: white;
+//     transform: translateY(-10px);
+//   }
+// `;
+
+export const ResumeButton = styled.button`
+  display: flex;
+  gap: 20px;
+  color: #ff014f;
+  font-size: 30px;
+  font-weight: 600;
   padding: 18px 25px;
   border-radius: 6px;
   transition: 0.3s all ease;
   cursor: pointer;
-  color: #000;
   transition: 0.5s;
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
@@ -93,14 +119,17 @@ export const JessicaImgContainer = styled.div`
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
-  height: 580px;
-  width: 516px;
-  margin-top: 20%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 `;
 
 export const JessicaImg = styled.img`
   position: absolute;
-  top: -15px;
-  right: 10%;
-  width: 510px;
+  bottom: 0;
+  height: 100%;
+  /* top: -15px;
+  right: 10%; */
+  /* max-width: 400px; */
 `;

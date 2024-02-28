@@ -2,6 +2,10 @@ import * as S from './styles';
 import { LinksListProps } from './types';
 
 export const LinksList = ({ flexDirection = 'row' }: LinksListProps) => {
+  const handleRedirectClick = (url: string) => {
+    window.open(url, '_blank');
+  };
+
   return (
     <S.List flexDirection={flexDirection}>
       <S.ListItem>
@@ -21,20 +25,23 @@ export const LinksList = ({ flexDirection = 'row' }: LinksListProps) => {
       </S.ListItem>
 
       <S.ListItem>
-        <S.ShadowButton>
-          <a href="https://github.com/JessicaLopesDev" target="_blank">
-            <S.ContactIcon className="fa-brands fa-github" />
-          </a>
+        <S.ShadowButton
+          onClick={() =>
+            handleRedirectClick('https://github.com/JessicaLopesDev')
+          }
+        >
+          <S.ContactIcon className="fa-brands fa-github" />
         </S.ShadowButton>
       </S.ListItem>
       <S.ListItem>
-        <S.ShadowButton>
-          <a
-            href="https://www.linkedin.com/in/jessica-lopes-dev-frontend/"
-            target="_blank"
-          >
-            <S.ContactIcon iconColor="linkedin" className="fab fa-linkedin" />
-          </a>
+        <S.ShadowButton
+          onClick={() =>
+            handleRedirectClick(
+              'https://www.linkedin.com/in/jessica-lopes-dev-frontend/',
+            )
+          }
+        >
+          <S.ContactIcon iconColor="linkedin" className="fab fa-linkedin" />
         </S.ShadowButton>
       </S.ListItem>
     </S.List>

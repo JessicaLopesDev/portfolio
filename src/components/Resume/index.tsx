@@ -6,14 +6,13 @@ export const Resume = () => {
   return (
     <S.Container id="resume">
       <S.Heading>
-        <h4>2+ YEARS OF EXPERIENCE</h4>
+        <h4>2+ ANOS DE EXPERIENCIA</h4>
         <h1>My Resume</h1>
       </S.Heading>
       <S.ContentWrapper>
         <S.Side>
           <S.Heading>
-            <h4>2012-2023</h4>
-            <h2>Education Quality</h2>
+            <h2>Educação</h2>
           </S.Heading>
           <S.Content>
             {ResumeData.map((val, id) => {
@@ -33,8 +32,7 @@ export const Resume = () => {
         </S.Side>
         <S.Side>
           <S.Heading>
-            <h4>2007-2010</h4>
-            <h2>Job Experience</h2>
+            <h2>Experiencia Profissional</h2>
           </S.Heading>
           <S.Content>
             {ResumeData.map((val, index) => {

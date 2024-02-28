@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  min-height: 380px;
   padding: 40px;
   margin-bottom: 40px;
   position: relative;
@@ -41,7 +42,7 @@ export const Container = styled.div`
     content: '';
     position: absolute;
     top: 13%;
-    left: -8%;
+    left: -50px;
     height: 5px;
     width: 50px;
     background: #d9dee2;
@@ -50,7 +51,7 @@ export const Container = styled.div`
     content: '';
     position: absolute;
     top: 11%;
-    left: -10%;
+    left: -57px;
     height: 10px;
     width: 10px;
     background: #fff;

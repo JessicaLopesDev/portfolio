@@ -10,8 +10,10 @@ import { Contact } from '../../components/Contact';
 export const PortfolioPage = () => {
   return (
     <S.Container>
-      <Header />
-      <Home />
+      <div style={{ height: '100vh' }}>
+        <Header />
+        <Home />
+      </div>
       <Features />
       <Projects />
       <Resume />
