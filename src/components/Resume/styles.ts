@@ -5,21 +5,10 @@ export const Container = styled.section`
   margin-top: 80px;
 `;
 
-export const Heading = styled.div`
-  margin: 40px 0 28px 0;
+export const TopicTitle = styled.h2`
   text-align: center;
-
-  > h1 {
-    font-size: 50px;
-  }
-  > h2 {
-    font-size: 40px;
-  }
-  h4 {
-    color: #ff014f;
-    letter-spacing: 2px;
-    font-weight: 400;
-  }
+  font-size: 36px;
+  margin-bottom: 12px;
 `;
 
 export const ContentWrapper = styled.div`
@@ -37,7 +26,7 @@ export const Side = styled.div`
     position: absolute;
     top: 128px;
     left: 0;
-    height: 157vh;
+    height: 160vh;
     width: 5px;
     background: #d9dee2;
     z-index: -2;

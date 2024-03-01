@@ -1,3 +1,4 @@
+import { SectionTitle } from '../SectionTitle';
 import { ResumeCard } from './ResumeCard';
 import { ResumeData } from './resume_data';
 import * as S from './styles';
@@ -5,15 +6,10 @@ import * as S from './styles';
 export const Resume = () => {
   return (
     <S.Container id="resume">
-      <S.Heading>
-        <h4>2+ ANOS DE EXPERIENCIA</h4>
-        <h1>Meu currículo</h1>
-      </S.Heading>
+      <SectionTitle title="Meu currículo" subtitle="2+ ANOS DE EXPERIENCIA" />
       <S.ContentWrapper>
         <S.Side>
-          <S.Heading>
-            <h2>Educação</h2>
-          </S.Heading>
+          <S.TopicTitle>Educação</S.TopicTitle>
           <S.Content>
             {ResumeData.map((val, id) => {
               if (val.category === 'education') {
@@ -31,9 +27,7 @@ export const Resume = () => {
           </S.Content>
         </S.Side>
         <S.Side>
-          <S.Heading>
-            <h2>Experiencia Profissional</h2>
-          </S.Heading>
+          <S.TopicTitle>Experiencia Profissional</S.TopicTitle>
           <S.Content>
             {ResumeData.map((val, index) => {
               if (val.category === 'experience') {

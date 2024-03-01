@@ -1,3 +1,4 @@
+import { SectionTitle } from '../SectionTitle';
 import { Wrapper } from '../Wrapper';
 import { ProjectCard } from './ProjectCard';
 import { PortfolioData } from './projects_data';
@@ -7,10 +8,10 @@ export const Projects = () => {
   return (
     <Wrapper id="portfolio">
       <S.Container>
-        <S.Heading>
-          <S.Title>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</S.Title>
-          <S.Subtitle>Meus projetos</S.Subtitle>
-        </S.Heading>
+        <SectionTitle
+          title="Meus projetos"
+          subtitle="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
+        />
         <S.GridContent>
           {PortfolioData.map((item, index) => (
             <ProjectCard

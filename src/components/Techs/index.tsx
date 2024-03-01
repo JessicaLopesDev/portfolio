@@ -19,7 +19,7 @@ export const Techs = () => {
       <S.Container>
         <SectionTitle title="Habilidades" subtitle="TECNOLOGIAS" />
         <S.TechsDescription>
-          Passe o cursor do mouse no card para ler
+          *Passe o cursor do mouse no card para ler*
         </S.TechsDescription>
         <S.GridContent>
           <S.ShadowButton onMouseOver={() => console.log('oi')}>
