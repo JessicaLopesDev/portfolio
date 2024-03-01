@@ -8,14 +8,14 @@ export const LinksList = ({ flexDirection = 'row' }: LinksListProps) => {
 
   return (
     <S.List flexDirection={flexDirection}>
+      {/* <S.ListItem>
+        <S.ItemLink href="#home">inicio</S.ItemLink>
+      </S.ListItem> */}
       <S.ListItem>
-        <S.ItemLink href="#home">home</S.ItemLink>
+        <S.ItemLink href="#features">tecnologias</S.ItemLink>
       </S.ListItem>
       <S.ListItem>
-        <S.ItemLink href="#features">features</S.ItemLink>
-      </S.ListItem>
-      <S.ListItem>
-        <S.ItemLink href="#portfolio">portifólio</S.ItemLink>
+        <S.ItemLink href="#portfolio">projetos</S.ItemLink>
       </S.ListItem>
       <S.ListItem>
         <S.ItemLink href="#resume">currículo</S.ItemLink>

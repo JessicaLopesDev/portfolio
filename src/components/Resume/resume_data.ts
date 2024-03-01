@@ -3,7 +3,7 @@ export const ResumeData = [
     id: 1,
     category: 'education',
     year: 'Trybe (2023 - 2023) ',
-    title: 'Aceleração em Java',
+    title: 'Desenvolvimento em Java',
     desc: 'Desenvolvimento de habilidade em Java e suas principais ferramentas, como Hibernate e Spring Boot, além de aprofundar os conhecimentos em orientação a objetos.',
     rate: '9.7/10 ',
   },

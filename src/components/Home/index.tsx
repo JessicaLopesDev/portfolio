@@ -1,7 +1,5 @@
 import hero from '/images/je.png';
-// import skill1 from '../../assets/react.png';
-// import skill2 from '../../assets/nodejs.svg';
-// import skill3 from '../../assets/java-.png';
+
 import { Typewriter } from 'react-simple-typewriter';
 
 import * as S from './styles';
@@ -63,26 +61,12 @@ export const Home = () => {
             </S.Description>
           </div>
 
-          <S.ButtonsContainer>
+          <S.ResumeContainer>
             <S.ResumeButton onClick={handleDownload}>
               Download CV
               <i className="fa-solid fa-file-arrow-down"></i>
             </S.ResumeButton>
-            {/* <div>
-              <S.ButtonsTitle>BEST SKILL ON</S.ButtonsTitle>
-              <S.ButtonsContent>
-                <S.ShadowButton>
-                  <S.SkillImg src={skill1} alt="" />
-                </S.ShadowButton>
-                <S.ShadowButton>
-                  <S.SkillImg src={skill2} alt="" />
-                </S.ShadowButton>
-                <S.ShadowButton>
-                  <S.SkillImg src={skill3} alt="" />
-                </S.ShadowButton>
-              </S.ButtonsContent>
-            </div> */}
-          </S.ButtonsContainer>
+          </S.ResumeContainer>
         </S.LeftContent>
         <S.RightContent>
           <S.JessicaImgContainer>

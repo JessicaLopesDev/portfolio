@@ -7,7 +7,7 @@ export const Resume = () => {
     <S.Container id="resume">
       <S.Heading>
         <h4>2+ ANOS DE EXPERIENCIA</h4>
-        <h1>My Resume</h1>
+        <h1>Meu currículo</h1>
       </S.Heading>
       <S.ContentWrapper>
         <S.Side>

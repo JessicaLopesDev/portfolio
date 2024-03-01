@@ -38,8 +38,8 @@ export const Contact = () => {
   return (
     <S.Container>
       <S.Heading id="contact">
-        <h4>CONTACT</h4>
-        <h1>Contact With Me</h1>
+        <h4>CONTATO</h4>
+        <h1>Entre em contato</h1>
       </S.Heading>
 
       <S.ContentContainer>
@@ -49,25 +49,22 @@ export const Contact = () => {
               <img src={contact1} alt="" />
             </div>
             <S.Details>
-              <h1>Nevine Acotanza</h1>
+              {/* <h1>Nevine Acotanza</h1>
               <p>Chief Operating Officer</p>
               <p>
                 I am available for freelance work. Connect with me via and call
                 in to my account.
               </p>{' '}
-              <br />
-              <p>Phone: +01234567890</p>
-              <p>Email: admin@example.com</p> <br />
-              <span>FIND WITH ME</span>
+              <br /> */}
+              <p>CELULAR: +5543996143068</p>
+              <p>EMAIL: jessicalopes.dev@gmail.com</p> <br />
+              <span>REDES SOCIAIS</span>
               <S.ContactButtons>
                 <button>
                   <i className="fab fa-facebook-f"></i>
                 </button>
                 <button>
                   <i className="fab fa-instagram"></i>
-                </button>
-                <button>
-                  <i className="fab fa-twitter"></i>
                 </button>
               </S.ContactButtons>
             </S.Details>
@@ -78,7 +75,7 @@ export const Contact = () => {
           <form onSubmit={formSubmit}>
             <S.NamePhoneContainer>
               <div>
-                <span>YOUR NAME</span>
+                <span>NOME</span>
                 <input
                   type="text"
                   name="fullname"
@@ -87,7 +84,7 @@ export const Contact = () => {
                 />
               </div>
               <div>
-                <span>PHONE NUMBER </span>
+                <span>TELEFONE</span>
                 <input
                   type="number"
                   name="phone"
@@ -106,7 +103,7 @@ export const Contact = () => {
               />
             </div>
             <div>
-              <span>SUBJECT </span>
+              <span>ASSUNTO</span>
               <input
                 type="text"
                 name="subject"
@@ -115,7 +112,7 @@ export const Contact = () => {
               />
             </div>
             <div>
-              <span>YOUR MESSAGE </span>
+              <span>MENSAGEM</span>
               <textarea
                 cols={30}
                 rows={10}
@@ -125,7 +122,7 @@ export const Contact = () => {
               ></textarea>
             </div>
             <S.SendButton>
-              SEND MESSAGE <i className="fa fa-long-arrow-right"></i>
+              ENVIAR MENSAGEM <i className="fa fa-long-arrow-right"></i>
             </S.SendButton>
           </form>
         </S.Right>

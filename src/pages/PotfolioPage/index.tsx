@@ -17,7 +17,7 @@ export const PortfolioPage = () => {
       <Features />
       <Projects />
       <Resume />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact />
     </S.Container>
   );
