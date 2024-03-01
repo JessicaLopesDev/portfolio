@@ -1,13 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  /* margin-top: 100px; */
-  /* max-width: 95%; */
-  margin: auto;
+  display: flex;
+  flex-direction: column;
 `;
 
 export const Heading = styled.div`
-  margin: 70px 0 30px 0;
   text-align: center;
 `;
 
@@ -19,13 +17,10 @@ export const ButtonsTitle = styled.h4`
 `;
 
 export const GridContent = styled.div`
-  /* width: 80%; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  /* grid-template-columns: repeat(1, 1fr);
-  grid-gap: 35px; */
   margin-top: 100px;
 `;
 

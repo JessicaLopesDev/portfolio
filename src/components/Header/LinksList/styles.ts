@@ -29,7 +29,10 @@ export const List = styled.ul<ListProps>`
   `}
 `;
 
-export const ListItem = styled.li``;
+export const ListItem = styled.li`
+  display: flex;
+  align-items: center;
+`;
 
 export const ItemLink = styled.a`
   transition: 0.5s;

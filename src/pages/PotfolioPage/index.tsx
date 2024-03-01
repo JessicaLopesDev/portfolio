@@ -10,15 +10,15 @@ import { Contact } from '../../components/Contact';
 export const PortfolioPage = () => {
   return (
     <S.Container>
-      <div style={{ height: '100vh' }}>
-        <Header />
+      <Header />
+      <S.Content>
         <Home />
-      </div>
-      <Techs />
-      <Projects />
-      <Resume />
-      {/* <Testimonial /> */}
-      <Contact />
+        <Techs />
+        <Projects />
+        <Resume />
+        {/* <Testimonial /> */}
+        <Contact />
+      </S.Content>
     </S.Container>
   );
 };

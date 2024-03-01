@@ -1,16 +1,5 @@
 import styled from 'styled-components';
 
-export const Container = styled.header`
-  position: relative;
-`;
-
-export const Content = styled.div`
-  display: flex;
-  margin-top: 80px;
-  height: calc(100vh - 160px);
-  padding-bottom: 50px;
-`;
-
 export const LeftContent = styled.div`
   /* margin-right: 10%; */
   width: 60%;

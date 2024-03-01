@@ -1,12 +1,20 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-  height: 10vh;
+  height: 80px;
+  width: 100%;
+  background-color: #ecf0f3;
   line-height: 10vh;
+  position: fixed;
+  top: 0;
+  padding: 0 64px;
+  z-index: 20;
 `;
 
 export const Content = styled.div`
-  padding-top: 15px;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
