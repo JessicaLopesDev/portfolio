@@ -14,7 +14,7 @@ import { Wrapper } from '../Wrapper';
 
 export const Techs = () => {
   return (
-    <Wrapper id="features">
+    <Wrapper id="features" hasScreenHeight>
       <S.Container>
         <S.Heading>
           <S.Title>TECNOLOGIAS</S.Title>

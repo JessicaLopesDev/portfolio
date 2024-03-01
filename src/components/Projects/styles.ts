@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  position: relative;
-  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
 `;
 
 export const Heading = styled.div`
-  margin: 50px 0 50px 0;
   text-align: center;
 `;
 
@@ -14,6 +13,7 @@ export const GridContent = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 35px;
+  margin-top: 30px;
 `;
 
 export const Title = styled.h4`

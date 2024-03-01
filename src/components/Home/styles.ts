@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const LeftContent = styled.div`
-  /* margin-right: 10%; */
   width: 60%;
   padding-right: 50px;
   display: flex;

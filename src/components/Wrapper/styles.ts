@@ -1,9 +1,13 @@
 import styled from 'styled-components';
+import { WrapperProps } from './types';
 
-export const Container = styled.header`
+type ContainerProps = Pick<WrapperProps, 'hasScreenHeight'>;
+
+export const Container = styled.header<ContainerProps>`
   max-width: 1200px;
   margin: auto;
-  height: calc(100vh - 80px);
+  height: ${({ hasScreenHeight }) =>
+    hasScreenHeight ? 'calc(100vh - 80px)' : '100%'};
   position: relative;
   padding: 64px 0;
 `;
