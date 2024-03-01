@@ -1,10 +1,10 @@
 import * as S from './styles';
 import { Home } from '../../components/Home';
 import { Header } from '../../components/Header';
-import { Features } from '../../components/Features';
+import { Techs } from '../../components/Techs';
 import { Projects } from '../../components/Projects';
 import { Resume } from '../../components/Resume';
-import { Testimonial } from '../../components/Testimonial';
+// import { Testimonial } from '../../components/Testimonial';
 import { Contact } from '../../components/Contact';
 
 export const PortfolioPage = () => {
@@ -14,7 +14,7 @@ export const PortfolioPage = () => {
         <Header />
         <Home />
       </div>
-      <Features />
+      <Techs />
       <Projects />
       <Resume />
       {/* <Testimonial /> */}

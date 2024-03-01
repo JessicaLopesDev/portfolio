@@ -7,13 +7,26 @@ export const Container = styled.section`
 `;
 
 export const Heading = styled.div`
-  margin: 0 0 30px 0;
+  margin: 70px 0 30px 0;
+  text-align: center;
+`;
+
+export const ButtonsTitle = styled.h4`
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #43474b;
+  font-size: 15px;
 `;
 
 export const GridContent = styled.div`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 35px;
+  /* width: 80%; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* grid-template-columns: repeat(1, 1fr);
+  grid-gap: 35px; */
+  margin-top: 100px;
 `;
 
 export const Title = styled.h4`
@@ -23,26 +36,7 @@ export const Title = styled.h4`
 `;
 
 export const Subtitle = styled.h1`
-  font-size: 45px;
-`;
-
-export const ButtonsContainer = styled.div`
-  margin-top: 48px;
-  display: flex;
-  justify-content: space-between;
-`;
-
-export const ButtonsTitle = styled.h4`
-  font-weight: 500;
-  letter-spacing: 2px;
-  color: #43474b;
-  font-size: 15px;
-  margin: 30px 0 30px 0;
-`;
-
-export const ButtonsContent = styled.div`
-  display: flex;
-  gap: 20px;
+  font-size: 50px;
 `;
 
 export const SkillImg = styled.img`
@@ -51,7 +45,8 @@ export const SkillImg = styled.img`
 `;
 
 export const ShadowButton = styled.button`
-  padding: 18px 25px;
+  width: 145px;
+  height: 140px;
   border-radius: 6px;
   transition: 0.3s all ease;
   cursor: pointer;
