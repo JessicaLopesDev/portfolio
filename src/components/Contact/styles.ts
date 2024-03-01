@@ -1,9 +1,13 @@
 import styled from 'styled-components';
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`;
 
 export const Heading = styled.div`
-  margin: 50px 0 50px 0;
   text-align: center;
 
   > h1 {
@@ -17,13 +21,13 @@ export const Heading = styled.div`
 `;
 
 export const ContentContainer = styled.div`
+  /* width: 100%; */
   display: flex;
   justify-content: space-between;
+  gap: 50px;
 `;
 
-export const Left = styled.div`
-  width: 36%;
-`;
+export const Left = styled.div``;
 
 export const BoxContent = styled.div`
   padding: 30px;
@@ -31,17 +35,17 @@ export const BoxContent = styled.div`
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
   img {
-    width: 100%;
+    max-width: 275px;
   }
 `;
 
 export const Details = styled.div`
   > h1 {
     margin: 20px 0 20px 0;
-    font-size: 35px;
+    font-size: 25px;
   }
   > p {
-    font-size: 17px;
+    font-size: 14.5px;
   }
 `;
 
@@ -67,7 +71,7 @@ export const ContactButtons = styled.div`
 `;
 
 export const Right = styled.div`
-  width: 60%;
+  width: 100%;
   padding: 35px;
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
@@ -79,7 +83,8 @@ export const Right = styled.div`
 
 export const NamePhoneContainer = styled.div`
   display: flex;
-  > div {
+  gap: 16px;
+  > input {
     width: 50%;
   }
 `;

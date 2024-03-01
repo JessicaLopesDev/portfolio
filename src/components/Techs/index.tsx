@@ -11,18 +11,16 @@ import skill10 from '../../assets/mysql.png';
 import skill11 from '../../assets/sequelize.png';
 import * as S from './styles';
 import { Wrapper } from '../Wrapper';
+import { SectionTitle } from '../SectionTitle';
 
 export const Techs = () => {
   return (
     <Wrapper id="features" hasScreenHeight>
       <S.Container>
-        <S.Heading>
-          <S.Title>TECNOLOGIAS</S.Title>
-          <S.Subtitle>Principais tecnologias</S.Subtitle>
-          <S.ButtonsTitle>
-            Passe o cursor do mouse no card para ler
-          </S.ButtonsTitle>
-        </S.Heading>
+        <SectionTitle title="Habilidades" subtitle="TECNOLOGIAS" />
+        <S.TechsDescription>
+          Passe o cursor do mouse no card para ler
+        </S.TechsDescription>
         <S.GridContent>
           <S.ShadowButton onMouseOver={() => console.log('oi')}>
             <S.SkillImg src={skill1} alt="" />

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import contact1 from './contact1.png';
 
 import * as S from './styles';
+import { Wrapper } from '../Wrapper';
 
 export const Contact = () => {
   const [data, setData] = useState({
@@ -36,97 +37,88 @@ export const Contact = () => {
   };
 
   return (
-    <S.Container>
-      <S.Heading id="contact">
-        <h4>CONTATO</h4>
-        <h1>Entre em contato</h1>
-      </S.Heading>
+    <Wrapper id="contact" hasScreenHeight>
+      <S.Container>
+        <S.Heading>
+          <h4>CONTATO</h4>
+          <h1>Entre em contato</h1>
+        </S.Heading>
 
-      <S.ContentContainer>
-        <S.Left>
-          <S.BoxContent>
-            <div>
-              <img src={contact1} alt="" />
-            </div>
-            <S.Details>
-              {/* <h1>Nevine Acotanza</h1>
-              <p>Chief Operating Officer</p>
-              <p>
-                I am available for freelance work. Connect with me via and call
-                in to my account.
-              </p>{' '}
-              <br /> */}
-              <p>CELULAR: +5543996143068</p>
-              <p>EMAIL: jessicalopes.dev@gmail.com</p> <br />
-              <span>REDES SOCIAIS</span>
-              <S.ContactButtons>
-                <button>
-                  <i className="fab fa-facebook-f"></i>
-                </button>
-                <button>
-                  <i className="fab fa-instagram"></i>
-                </button>
-              </S.ContactButtons>
-            </S.Details>
-          </S.BoxContent>
-        </S.Left>
-
-        <S.Right>
-          <form onSubmit={formSubmit}>
-            <S.NamePhoneContainer>
+        <S.ContentContainer>
+          <S.Left>
+            <S.BoxContent>
               <div>
-                <span>NOME</span>
+                <img src={contact1} alt="" />
+              </div>
+              <S.Details>
+                <p>CELULAR: +5543996143068</p>
+                <p>EMAIL: jessicalopes.dev@gmail.com</p> <br />
+                <span>REDES SOCIAIS</span>
+                <S.ContactButtons>
+                  <button>
+                    <i className="fab fa-facebook-f"></i>
+                  </button>
+                  <button>
+                    <i className="fab fa-instagram"></i>
+                  </button>
+                </S.ContactButtons>
+              </S.Details>
+            </S.BoxContent>
+          </S.Left>
+
+          <S.Right>
+            <form onSubmit={formSubmit}>
+              <S.NamePhoneContainer>
                 <input
                   type="text"
                   name="fullname"
+                  placeholder="NOME"
                   value={data.fullname}
+                  onChange={InputEvent}
+                />
+                <input
+                  type="number"
+                  name="phone"
+                  placeholder="TELEFONE"
+                  value={data.phone}
+                  onChange={InputEvent}
+                />
+              </S.NamePhoneContainer>
+              <div>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="EMAIL"
+                  value={data.email}
                   onChange={InputEvent}
                 />
               </div>
               <div>
-                <span>TELEFONE</span>
                 <input
-                  type="number"
-                  name="phone"
-                  value={data.phone}
+                  type="text"
+                  name="subject"
+                  placeholder="ASSUNTO"
+                  value={data.subject}
                   onChange={InputEvent}
                 />
               </div>
-            </S.NamePhoneContainer>
-            <div>
-              <span>EMAIL </span>
-              <input
-                type="email"
-                name="email"
-                value={data.email}
-                onChange={InputEvent}
-              />
-            </div>
-            <div>
-              <span>ASSUNTO</span>
-              <input
-                type="text"
-                name="subject"
-                value={data.subject}
-                onChange={InputEvent}
-              />
-            </div>
-            <div>
-              <span>MENSAGEM</span>
-              <textarea
-                cols={30}
-                rows={10}
-                name="message"
-                value={data.message}
-                onChange={InputEvent}
-              ></textarea>
-            </div>
-            <S.SendButton>
-              ENVIAR MENSAGEM <i className="fa fa-long-arrow-right"></i>
-            </S.SendButton>
-          </form>
-        </S.Right>
-      </S.ContentContainer>
-    </S.Container>
+              <div>
+                <textarea
+                  cols={30}
+                  rows={4}
+                  name="message"
+                  placeholder="MENSAGEM"
+                  value={data.message}
+                  onChange={InputEvent}
+                ></textarea>
+              </div>
+              <S.SendButton>
+                ENVIAR MENSAGEM <i className="fa fa-long-arrow-right"></i>
+              </S.SendButton>
+            </form>
+          </S.Right>
+        </S.ContentContainer>
+      </S.Container>
+    </Wrapper>
   );
 };

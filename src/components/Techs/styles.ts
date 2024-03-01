@@ -9,7 +9,7 @@ export const Heading = styled.div`
   text-align: center;
 `;
 
-export const ButtonsTitle = styled.h4`
+export const TechsDescription = styled.h4`
   font-weight: 500;
   letter-spacing: 2px;
   color: #43474b;
