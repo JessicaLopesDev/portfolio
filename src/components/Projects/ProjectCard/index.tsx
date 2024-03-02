@@ -8,9 +8,9 @@ import { ProjectDetails } from '../ProjectDetails';
 export type ProjectDataType = {
   id?: number;
   category: string;
-  totalLike: string;
   title: string;
   image: string;
+  description: string;
 };
 
 export const ProjectCard = (props: ProjectDataType) => {
@@ -27,7 +27,6 @@ export const ProjectCard = (props: ProjectDataType) => {
           <S.CategoryTitle>{props.category}</S.CategoryTitle>
           <label>
             <S.HeartIcon className="far fa-heart"></S.HeartIcon>
-            {props.totalLike}
           </label>
         </S.CategoryContainer>
         <div>
@@ -35,7 +34,11 @@ export const ProjectCard = (props: ProjectDataType) => {
           <div
             onClick={() => {
               setModalIsOpen(true);
-              setProjectDetails({ image: props.image, title: props.title });
+              setProjectDetails({
+                image: props.image,
+                title: props.title,
+                description: props.description,
+              });
             }}
           >
             <i className="fas fa-arrow-right"></i>

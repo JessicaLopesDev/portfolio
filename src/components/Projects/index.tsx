@@ -18,8 +18,8 @@ export const Projects = () => {
               key={index}
               image={item.image}
               category={item.category}
-              totalLike={item.totalLike}
               title={item.title}
+              description={item.description}
             />
           ))}
         </S.GridContent>

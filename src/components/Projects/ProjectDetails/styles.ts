@@ -14,7 +14,7 @@ export const Right = styled.div`
 `;
 
 export const Title = styled.h1`
-  margin: 20px 0 20px 0;
+  margin: 10px 0 20px 0;
   font-size: 30px;
 `;
 

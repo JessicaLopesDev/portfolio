@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 50px;
   padding: 18px 25px;
   border-radius: 6px;
   transition: 0.3s all ease;
@@ -19,7 +18,7 @@ export const Container = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-  height: 300px;
+  height: 230px;
   overflow: hidden;
   transition: 0.5s;
 `;
@@ -40,7 +39,7 @@ export const HeartIcon = styled.i`
 export const CategoryContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 20px 0 30px 0;
+  /* margin: 0 0 30px 0; */
   text-transform: uppercase;
 `;
 

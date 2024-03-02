@@ -2,43 +2,49 @@ export const PortfolioData = [
   {
     id: 1,
     category: 'DEVELOPMENT',
-    totalLike: '600',
-    title: 'The services provide for design ',
-    image: 'images/aurora.JPG',
+    title: 'My Wallet Dashboard',
+    image: 'images/dashboard.png',
+    description:
+      'Dashboard desenvolvido utilizando ReactJs e TypeScript. Criação de um layout responsivo com Grid Layout e Flexbox. Nesse projeto, além de aprender a criar gráficos e aplicar animações, também criei temas de cores e permiti que o usuário troque o tema (dark e light).',
   },
   {
     id: 2,
     category: 'APPLICATION',
-    totalLike: '750',
     title: 'Mobile app landing design & maintain',
-    image: 'images/aurora.JPG',
+    image: 'images/dashboard.png',
+    description:
+      'Dashboard desenvolvido utilizando ReactJs e TypeScript. Criação de um layout responsivo com Grid Layout e Flexbox. Nesse projeto, além de aprender a criar gráficos e aplicar animações, também criei temas de cores e permiti que o usuário troque o tema (dark e light).',
   },
   {
     id: 3,
-    category: 'PHOTOSHOP',
-    totalLike: '630',
+    category: 'DEVELOPMENT',
     title: 'Logo design creativity & Application ',
-    image: 'images/aurora.JPG',
+    image: 'images/dashboard.png',
+    description:
+      'Dashboard desenvolvido utilizando ReactJs e TypeScript. Criação de um layout responsivo com Grid Layout e Flexbox. Nesse projeto, além de aprender a criar gráficos e aplicar animações, também criei temas de cores e permiti que o usuário troque o tema (dark e light).',
   },
   {
     id: 4,
-    category: 'FIGMA',
-    totalLike: '360',
+    category: 'APPLICATION',
     title: 'Mobile app landing design & Services',
-    image: 'images/aurora.JPG',
+    image: 'images/dashboard.png',
+    description:
+      'Dashboard desenvolvido utilizando ReactJs e TypeScript. Criação de um layout responsivo com Grid Layout e Flexbox. Nesse projeto, além de aprender a criar gráficos e aplicar animações, também criei temas de cores e permiti que o usuário troque o tema (dark e light).',
   },
   {
     id: 5,
-    category: 'WEB DESIGN',
-    totalLike: '280',
-    title: 'Design for tecnology & services',
-    image: 'images/aurora.JPG',
+    category: 'APPLICATION',
+    title: 'Mobile app GoFinances',
+    image: 'images/gofinances.png',
+    description:
+      'Dashboard desenvolvido utilizando ReactJs e TypeScript. Criação de um layout responsivo com Grid Layout e Flexbox. Nesse projeto, além de aprender a criar gráficos e aplicar animações, também criei temas de cores e permiti que o usuário troque o tema (dark e light).',
   },
   {
     id: 6,
-    category: 'WEB DESIGN',
-    totalLike: '690',
+    category: 'DEVELOPMENT',
     title: 'App for tecnology & services',
-    image: 'images/aurora.JPG',
+    image: 'images/dashboard.png',
+    description:
+      'Dashboard desenvolvido utilizando ReactJs e TypeScript. Criação de um layout responsivo com Grid Layout e Flexbox. Nesse projeto, além de aprender a criar gráficos e aplicar animações, também criei temas de cores e permiti que o usuário troque o tema (dark e light).',
   },
 ];
