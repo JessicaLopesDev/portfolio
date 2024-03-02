@@ -1,12 +1,15 @@
-import { SectionTitle } from '../SectionTitle';
+import { Wrapper } from '../Wrapper';
 import { ResumeCard } from './ResumeCard';
 import { ResumeData } from './resume_data';
 import * as S from './styles';
 
 export const Resume = () => {
   return (
-    <S.Container id="resume">
-      <SectionTitle title="Meu currículo" subtitle="2+ ANOS DE EXPERIENCIA" />
+    <Wrapper
+      id="resume"
+      title="Meu currículo"
+      subtitle="2+ ANOS DE EXPERIENCIA"
+    >
       <S.ContentWrapper>
         <S.Side>
           <S.TopicTitle>Educação</S.TopicTitle>
@@ -45,6 +48,6 @@ export const Resume = () => {
           </S.Content>
         </S.Side>
       </S.ContentWrapper>
-    </S.Container>
+    </Wrapper>
   );
 };

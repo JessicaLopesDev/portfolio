@@ -10,13 +10,11 @@ export const Wrapper = ({
 }: WrapperProps) => {
   return (
     <S.Container id={id} hasScreenHeight={hasScreenHeight}>
-      <S.Content>
-        <S.Heading>
-          <S.Title>{title}</S.Title>
-          <S.Subtitle>{subtitle}</S.Subtitle>
-        </S.Heading>
-        {children}
-      </S.Content>
+      <S.Heading>
+        <S.Title>{title}</S.Title>
+        <S.Subtitle>{subtitle}</S.Subtitle>
+      </S.Heading>
+      <S.Content>{children}</S.Content>
     </S.Container>
   );
 };

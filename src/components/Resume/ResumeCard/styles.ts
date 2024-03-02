@@ -51,7 +51,7 @@ export const Container = styled.div`
     content: '';
     position: absolute;
     top: 11%;
-    left: -57px;
+    left: -62px;
     height: 10px;
     width: 10px;
     background: #fff;

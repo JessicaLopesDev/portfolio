@@ -3,7 +3,6 @@ import contact1 from './contact1.png';
 
 import * as S from './styles';
 import { Wrapper } from '../Wrapper';
-import { SectionTitle } from '../SectionTitle';
 
 export const Contact = () => {
   const [data, setData] = useState({
@@ -38,9 +37,13 @@ export const Contact = () => {
   };
 
   return (
-    <Wrapper id="contact" hasScreenHeight>
+    <Wrapper
+      id="contact"
+      title="Entre em contato"
+      subtitle="CONTATO"
+      hasScreenHeight
+    >
       <S.Container>
-        <SectionTitle title="Entre em contato" subtitle="CONTATO" />
         <S.ContentContainer>
           <S.Left>
             <S.BoxContent>

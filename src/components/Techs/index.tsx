@@ -11,13 +11,16 @@ import skill10 from '../../assets/mysql.png';
 import skill11 from '../../assets/sequelize.png';
 import * as S from './styles';
 import { Wrapper } from '../Wrapper';
-import { SectionTitle } from '../SectionTitle';
 
 export const Techs = () => {
   return (
-    <Wrapper id="features" hasScreenHeight>
+    <Wrapper
+      id="features"
+      title="Habilidades"
+      subtitle="TECNOLOGIAS"
+      hasScreenHeight
+    >
       <S.Container>
-        <SectionTitle title="Habilidades" subtitle="TECNOLOGIAS" />
         <S.TechsDescription>
           *Passe o cursor do mouse no card para ler*
         </S.TechsDescription>

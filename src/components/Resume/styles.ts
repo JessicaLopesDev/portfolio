@@ -21,7 +21,7 @@ export const ContentWrapper = styled.div`
 export const Side = styled.div`
   width: 50%;
   position: relative;
-  &::after {
+  /* &::after {
     content: '';
     position: absolute;
     top: 128px;
@@ -30,12 +30,13 @@ export const Side = styled.div`
     width: 5px;
     background: #d9dee2;
     z-index: -2;
-  }
-  /* background-color: aqua; */
+  } */
 `;
 
 export const Content = styled.div`
+  /* background-color: aqua; */
   /* max-width: 85%; */
   margin: auto;
   padding-left: 50px;
+  border-left: 5px solid #d9dee2;
 `;

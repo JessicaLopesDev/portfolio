@@ -20,18 +20,15 @@ export const ProjectCard = (props: ProjectDataType) => {
   return (
     <>
       <S.Container>
-        <S.ImageContainer>
+        <S.TopContent>
           <S.Image src={props.image} alt="" />
-        </S.ImageContainer>
-        <S.CategoryContainer>
-          <S.CategoryTitle>{props.category}</S.CategoryTitle>
-          <label>
-            <S.HeartIcon className="far fa-heart"></S.HeartIcon>
-          </label>
-        </S.CategoryContainer>
-        <div>
-          <S.Title>{props.title}</S.Title>
-          <div
+          <S.TitleContainer>
+            <S.CategoryTitle>{props.category}</S.CategoryTitle>
+            <S.Title>{props.title}</S.Title>
+          </S.TitleContainer>
+        </S.TopContent>
+        <S.ButtonBox>
+          <S.Button
             onClick={() => {
               setModalIsOpen(true);
               setProjectDetails({
@@ -41,9 +38,10 @@ export const ProjectCard = (props: ProjectDataType) => {
               });
             }}
           >
-            <i className="fas fa-arrow-right"></i>
-          </div>
-        </div>
+            VER DETALHES
+            <S.Icon className="fas fa-arrow-right"></S.Icon>
+          </S.Button>
+        </S.ButtonBox>
       </S.Container>
 
       <Modal isOpen={modalIsOpen} onClose={setModalIsOpen}>

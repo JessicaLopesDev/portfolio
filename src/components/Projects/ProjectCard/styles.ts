@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 18px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
   border-radius: 6px;
   transition: 0.3s all ease;
   cursor: pointer;
@@ -17,10 +20,10 @@ export const Container = styled.div`
   }
 `;
 
-export const ImageContainer = styled.div`
-  height: 230px;
-  overflow: hidden;
-  transition: 0.5s;
+export const TopContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 `;
 
 export const Image = styled.img`
@@ -32,14 +35,7 @@ export const Image = styled.img`
   }
 `;
 
-export const HeartIcon = styled.i`
-  margin-right: 4px;
-`;
-
-export const CategoryContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  /* margin: 0 0 30px 0; */
+export const TitleContainer = styled.div`
   text-transform: uppercase;
 `;
 
@@ -57,4 +53,29 @@ export const Title = styled.h2`
   &:hover {
     color: #ff014f;
   }
+`;
+
+export const ButtonBox = styled.div`
+  display: flex;
+  justify-content: flex-end;
+`;
+
+export const Button = styled.button`
+  color: #ff014f;
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  transition: 0.5s;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  &:hover {
+    transform: translateX(10px);
+    background: #ff014f;
+    color: white;
+  }
+`;
+
+export const Icon = styled.i`
+  margin-left: 10px;
 `;
