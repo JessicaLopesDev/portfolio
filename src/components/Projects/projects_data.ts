@@ -27,7 +27,7 @@ export const PortfolioData = [
     id: 4,
     category: 'APPLICATION',
     title: 'Mobile app landing design & Services',
-    image: 'images/dashboard.png',
+    image: 'images/rentX.png',
     description:
       'Dashboard desenvolvido utilizando ReactJs e TypeScript. Criação de um layout responsivo com Grid Layout e Flexbox. Nesse projeto, além de aprender a criar gráficos e aplicar animações, também criei temas de cores e permiti que o usuário troque o tema (dark e light).',
   },
