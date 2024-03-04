@@ -21,14 +21,8 @@ export const ProjectDetails = ({ data }: ProjectDetailsProps) => {
             LIKE THIS
             <S.Icon className="far fa-thumbs-up" />
           </S.Button> */}
-          <S.Button
-            onClick={() =>
-              handleRedirectClick(
-                'https://github.com/JessicaLopesDev/my-wallet-dashboard',
-              )
-            }
-          >
-            VIEW PROJECT
+          <S.Button onClick={() => handleRedirectClick(data.url)}>
+            ACESSAR REPOSITÓRIO
             <S.Icon className="fas fa-chevron-right" />
           </S.Button>
         </S.ButtonsContainer>

@@ -18,6 +18,7 @@ export const Projects = () => {
               image={item.image}
               category={item.category}
               title={item.title}
+              url={item.url}
               description={item.description}
             />
           ))}

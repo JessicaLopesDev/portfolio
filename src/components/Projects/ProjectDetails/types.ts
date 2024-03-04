@@ -1,6 +1,7 @@
 export interface ProjectDataProps {
   image: string;
   title: string;
+  url: string;
   description: string;
 }
 

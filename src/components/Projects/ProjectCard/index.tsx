@@ -10,6 +10,7 @@ export type ProjectDataType = {
   category: string;
   title: string;
   image: string;
+  url: string;
   description: string;
 };
 
@@ -35,6 +36,7 @@ export const ProjectCard = (props: ProjectDataType) => {
                 image: props.image,
                 title: props.title,
                 description: props.description,
+                url: props.url,
               });
             }}
           >
