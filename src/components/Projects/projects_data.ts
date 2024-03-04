@@ -2,15 +2,6 @@ export const PortfolioData = [
   {
     id: 1,
     category: 'DEVELOPMENT',
-    title: 'Dashboard - Minha carteira',
-    image: 'images/dashboard.png',
-    url: 'https://github.com/JessicaLopesDev/my-wallet-dashboard',
-    description:
-      'Dashboard desenvolvido utilizando ReactJs e TypeScript. Criação de um layout responsivo com Grid Layout e Flexbox. Nesse projeto, além de aprender a criar gráficos e aplicar animações, também criei temas de cores e permiti que o usuário troque o tema (dark e light).',
-  },
-  {
-    id: 2,
-    category: 'DEVELOPMENT',
     title: 'TrybeTunes - App de músicas',
     image: 'images/album.png',
     url: 'https://github.com/JessicaLopesDev/trybetunes-trybe',
@@ -18,13 +9,23 @@ export const PortfolioData = [
       'Uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.',
   },
   {
-    id: 3,
+    id: 2,
     category: 'DEVELOPMENT',
-    title: 'Logo design creativity & Application ',
+    title: 'Dashboard - Minha carteira',
     image: 'images/dashboard.png',
-    url: 'https://github.com/JessicaLopesDev/GoFinances',
+    url: 'https://github.com/JessicaLopesDev/my-wallet-dashboard',
     description:
       'Dashboard desenvolvido utilizando ReactJs e TypeScript. Criação de um layout responsivo com Grid Layout e Flexbox. Nesse projeto, além de aprender a criar gráficos e aplicar animações, também criei temas de cores e permiti que o usuário troque o tema (dark e light).',
+  },
+
+  {
+    id: 3,
+    category: 'DEVELOPMENT',
+    title: 'Trybewallet - Conversão de moedas',
+    image: 'images/trybewallet.png',
+    url: 'https://github.com/tryber/sd-028-a-project-trybewallet',
+    description:
+      'Uma carteira de controle de gastos com conversor de moedas. O usuário é capaz de adicionar, remover e editar um gasto, visualizar uma tabela com seus gastos e visualizar o total de gastos convertidos para uma moeda de escolha;',
   },
   {
     id: 4,
