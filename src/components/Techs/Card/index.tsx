@@ -1,21 +1,19 @@
 import * as S from './styles';
 
-export type FeaturesDataType = {
+export type TechsDataType = React.DetailedHTMLProps<
+  React.ButtonHTMLAttributes<HTMLButtonElement>,
+  HTMLButtonElement
+> & {
   id?: number;
   image: string;
   title: string;
   desc: string;
 };
 
-export const FeatureCard = (props: FeaturesDataType) => {
+export const TechCard = ({ image, title, ...rest }: TechsDataType) => {
   return (
-    <S.Container>
-      <img src={props.image} alt="" />
-      <S.Title>{props.title}</S.Title>
-      <S.Description>{props.desc}</S.Description>
-      <a href="/">
-        <S.ArrowIcon className="fas fa-arrow-right"></S.ArrowIcon>
-      </a>
+    <S.Container {...rest}>
+      <S.SkillImg src={image} alt={title} />
     </S.Container>
   );
 };

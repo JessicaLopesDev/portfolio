@@ -6,12 +6,12 @@ export const Container = styled.section`
 `;
 
 export const TechsDescription = styled.h4`
+  height: 100px;
   text-align: center;
-  /* margin-top: 20px; */
   font-weight: 500;
   letter-spacing: 2px;
   color: #43474b;
-  font-size: 13px;
+  font-size: 15px;
 `;
 
 export const GridContent = styled.div`
@@ -20,26 +20,4 @@ export const GridContent = styled.div`
   flex-wrap: wrap;
   gap: 20px;
   margin-top: 100px;
-`;
-
-export const SkillImg = styled.img`
-  width: 100px;
-  height: 100px;
-`;
-
-export const ShadowButton = styled.button`
-  width: 145px;
-  height: 140px;
-  border-radius: 6px;
-  transition: 0.3s all ease;
-  cursor: pointer;
-  color: #000;
-  transition: 0.5s;
-  background: linear-gradient(145deg, #e2e8ec, #ffffff);
-  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
-  &:hover {
-    background: #ff014f;
-    color: white;
-    transform: translateY(-10px);
-  }
 `;
