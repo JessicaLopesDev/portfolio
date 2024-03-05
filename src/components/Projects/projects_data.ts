@@ -48,10 +48,10 @@ export const PortfolioData = [
   {
     id: 6,
     category: 'DEVELOPMENT',
-    title: 'App for tecnology & services',
-    image: 'images/dashboard.png',
-    url: 'https://github.com/JessicaLopesDev/GoFinances',
+    title: 'Tryunfo - Jogo de cartas',
+    image: 'images/tryunfo.png',
+    url: 'https://github.com/JessicaLopesDev/tryunfo',
     description:
-      'Dashboard desenvolvido utilizando ReactJs e TypeScript. Criação de um layout responsivo com Grid Layout e Flexbox. Nesse projeto, além de aprender a criar gráficos e aplicar animações, também criei temas de cores e permiti que o usuário troque o tema (dark e light).',
+      'Esse projeto é um jogo de cartas no estilo Super Trunfo! Ao utilizar essa aplicação uma pessoa usuária pode criar um baralho com o tema livre, adicionar e remover uma carta do baralho, visualizar todas as cartas que foram adicionadas ao baralho e jogar com o baralho criado.',
   },
 ];
