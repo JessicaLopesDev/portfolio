@@ -3,7 +3,7 @@ import { ReactNode } from 'react';
 export interface WrapperProps {
   children: ReactNode;
   id: string;
-  hasScreenHeight?: boolean;
+  hasscreenHeight?: boolean;
   title?: string;
   subtitle?: string;
 }

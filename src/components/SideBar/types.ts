@@ -2,6 +2,6 @@ import { ReactElement } from 'react';
 
 export interface SideBarProps {
   children?: ReactElement;
-  isOpen: boolean;
+  isopen: boolean;
   onClose: (value: boolean) => void;
 }

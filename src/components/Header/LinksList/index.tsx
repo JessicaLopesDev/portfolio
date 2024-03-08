@@ -1,13 +1,13 @@
 import * as S from './styles';
 import { LinksListProps } from './types';
 
-export const LinksList = ({ flexDirection = 'row' }: LinksListProps) => {
+export const LinksList = ({ flexdirection = 'row' }: LinksListProps) => {
   const handleRedirectClick = (url: string) => {
     window.open(url, '_blank');
   };
 
   return (
-    <S.List flexDirection={flexDirection}>
+    <S.List flexdirection={flexdirection}>
       {/* <S.ListItem>
         <S.ItemLink href="#home">inicio</S.ItemLink>
       </S.ListItem> */}
@@ -41,7 +41,7 @@ export const LinksList = ({ flexDirection = 'row' }: LinksListProps) => {
             )
           }
         >
-          <S.ContactIcon iconColor="linkedin" className="fab fa-linkedin" />
+          <S.ContactIcon iconcolor="linkedin" className="fab fa-linkedin" />
         </S.ShadowButton>
       </S.ListItem>
     </S.List>

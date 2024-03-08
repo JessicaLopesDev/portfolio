@@ -4,12 +4,12 @@ import { WrapperProps } from './types';
 export const Wrapper = ({
   children,
   id,
-  hasScreenHeight,
+  hasscreenHeight,
   title,
   subtitle,
 }: WrapperProps) => {
   return (
-    <S.Container id={id} hasScreenHeight={hasScreenHeight}>
+    <S.Container id={id} hasscreenHeight={hasscreenHeight}>
       <S.Heading>
         <S.Title>{title}</S.Title>
         <S.Subtitle>{subtitle}</S.Subtitle>

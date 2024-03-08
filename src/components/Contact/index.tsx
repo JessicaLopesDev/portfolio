@@ -41,7 +41,7 @@ export const Contact = () => {
       id="contact"
       title="Entre em contato"
       subtitle="CONTATO"
-      hasScreenHeight
+      hasscreenHeight
     >
       <S.Container>
         <S.ContentContainer>

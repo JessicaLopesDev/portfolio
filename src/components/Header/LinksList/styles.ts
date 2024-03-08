@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components';
 import { LinksListProps } from './types';
 
-type ListProps = Pick<LinksListProps, 'flexDirection'>;
-type IconProps = Pick<LinksListProps, 'iconColor'>;
+type ListProps = Pick<LinksListProps, 'flexdirection'>;
+type IconProps = Pick<LinksListProps, 'iconcolor'>;
 
 const listItemModifier = {
   column: () => css`
@@ -13,18 +13,18 @@ const listItemModifier = {
 };
 
 export const List = styled.ul<ListProps>`
-  ${({ flexDirection }) => css`
+  ${({ flexdirection }) => css`
     height: 100%;
     display: flex;
     text-transform: uppercase;
-    flex-direction: ${flexDirection};
+    flex-direction: ${flexdirection};
     justify-content: center;
-    gap: ${flexDirection === 'column' ? '48px' : '32px'};
+    gap: ${flexdirection === 'column' ? '48px' : '32px'};
 
     li {
       font-weight: 600;
       list-style: none;
-      ${!!flexDirection && listItemModifier[flexDirection]()}
+      ${!!flexdirection && listItemModifier[flexdirection]()}
     }
   `}
 `;
@@ -71,8 +71,8 @@ export const ShadowButton = styled.button`
 `;
 
 export const ContactIcon = styled.i<IconProps>`
-  ${({ iconColor }) => css`
+  ${({ iconcolor }) => css`
     font-size: 22px;
-    color: ${iconColor === 'linkedin' ? '#0a66c2' : '#171515'};
+    color: ${iconcolor === 'linkedin' ? '#0a66c2' : '#171515'};
   `}
 `;

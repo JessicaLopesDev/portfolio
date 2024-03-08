@@ -1,4 +1,4 @@
 export interface LinksListProps {
-  flexDirection?: 'column' | 'row';
-  iconColor?: 'linkedin' | 'github';
+  flexdirection?: 'column' | 'row';
+  iconcolor?: 'linkedin' | 'github';
 }

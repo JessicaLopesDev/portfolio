@@ -5,7 +5,7 @@ import { SideBar } from '../SideBar';
 import { LinksList } from './LinksList';
 
 export const Header = () => {
-  const [isOpen, setisOpen] = useState(false);
+  const [isopen, setisopen] = useState(false);
 
   return (
     <>
@@ -20,12 +20,12 @@ export const Header = () => {
             <S.ListBox>
               <LinksList />
             </S.ListBox>
-            <S.HomeButton onClick={() => setisOpen(true)}>
+            <S.HomeButton onClick={() => setisopen(true)}>
               <i className="fas fa-bars open"></i>
             </S.HomeButton>
           </S.RightContent>
         </S.Content>
-        <SideBar isOpen={isOpen} onClose={() => setisOpen(false)} />
+        <SideBar isopen={isopen} onClose={() => setisopen(false)} />
       </S.Container>
     </>
   );

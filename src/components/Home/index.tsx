@@ -27,7 +27,7 @@ export const Home = () => {
   };
 
   return (
-    <Wrapper id="home" hasScreenHeight>
+    <Wrapper id="home" hasscreenHeight>
       <S.LeftContent>
         <div>
           <S.Greeting>

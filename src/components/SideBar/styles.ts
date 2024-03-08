@@ -2,11 +2,11 @@ import styled, { css } from 'styled-components';
 import { LinksList } from '../Header/LinksList';
 
 type ContainerProps = {
-  isOpen: boolean;
+  isopen: boolean;
 };
 
 export const Container = styled.div<ContainerProps>`
-  ${({ isOpen }) => css`
+  ${({ isopen }) => css`
     width: 100%;
     height: 100vh;
     top: 0;
@@ -16,7 +16,7 @@ export const Container = styled.div<ContainerProps>`
     position: fixed;
     z-index: 9999;
     background: rgba(0, 0, 0, 0.7);
-    display: ${isOpen ? 'flex' : 'none'};
+    display: ${isopen ? 'flex' : 'none'};
   `}
 `;
 
